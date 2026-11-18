@@ -1,0 +1,4314 @@
+[
+ {
+  "id": "los-angeles-us",
+  "name": "Los Angeles",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Los_Angeles",
+  "lat": 34.0522,
+  "lon": -118.2437,
+  "holidays": {
+   "country": "US",
+   "subdiv": "CA"
+  },
+  "label": "LA"
+ },
+ {
+  "id": "new-york-us",
+  "name": "New York",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/New_York",
+  "lat": 40.7128,
+  "lon": -74.006,
+  "holidays": {
+   "country": "US",
+   "subdiv": "NY"
+  },
+  "label": "NY"
+ },
+ {
+  "id": "san-francisco-us",
+  "name": "San Francisco",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Los_Angeles",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "holidays": {
+   "country": "US",
+   "subdiv": "CA"
+  },
+  "label": "SF"
+ },
+ {
+  "id": "chicago-us",
+  "name": "Chicago",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Chicago",
+  "lat": 41.8781,
+  "lon": -87.6298,
+  "holidays": {
+   "country": "US",
+   "subdiv": "IL"
+  },
+  "label": "CHI"
+ },
+ {
+  "id": "seattle-us",
+  "name": "Seattle",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Los_Angeles",
+  "lat": 47.6062,
+  "lon": -122.3321,
+  "holidays": {
+   "country": "US",
+   "subdiv": "WA"
+  },
+  "label": "SEA"
+ },
+ {
+  "id": "boston-us",
+  "name": "Boston",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/New_York",
+  "lat": 42.3601,
+  "lon": -71.0589,
+  "holidays": {
+   "country": "US",
+   "subdiv": "MA"
+  },
+  "label": "BOS"
+ },
+ {
+  "id": "washington-us",
+  "name": "Washington",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/New_York",
+  "lat": 38.9072,
+  "lon": -77.0369,
+  "holidays": {
+   "country": "US",
+   "subdiv": "DC"
+  },
+  "label": "DC"
+ },
+ {
+  "id": "miami-us",
+  "name": "Miami",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/New_York",
+  "lat": 25.7617,
+  "lon": -80.1918,
+  "holidays": {
+   "country": "US",
+   "subdiv": "FL"
+  },
+  "label": "MIA"
+ },
+ {
+  "id": "atlanta-us",
+  "name": "Atlanta",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/New_York",
+  "lat": 33.749,
+  "lon": -84.388,
+  "holidays": {
+   "country": "US",
+   "subdiv": "GA"
+  },
+  "label": "ATL"
+ },
+ {
+  "id": "dallas-us",
+  "name": "Dallas",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Chicago",
+  "lat": 32.7767,
+  "lon": -96.797,
+  "holidays": {
+   "country": "US",
+   "subdiv": "TX"
+  },
+  "label": "DAL"
+ },
+ {
+  "id": "houston-us",
+  "name": "Houston",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Chicago",
+  "lat": 29.7604,
+  "lon": -95.3698,
+  "holidays": {
+   "country": "US",
+   "subdiv": "TX"
+  },
+  "label": "HOU"
+ },
+ {
+  "id": "austin-us",
+  "name": "Austin",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Chicago",
+  "lat": 30.2672,
+  "lon": -97.7431,
+  "holidays": {
+   "country": "US",
+   "subdiv": "TX"
+  },
+  "label": "AUS"
+ },
+ {
+  "id": "denver-us",
+  "name": "Denver",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Denver",
+  "lat": 39.7392,
+  "lon": -104.9903,
+  "holidays": {
+   "country": "US",
+   "subdiv": "CO"
+  },
+  "label": "DEN"
+ },
+ {
+  "id": "phoenix-us",
+  "name": "Phoenix",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Phoenix",
+  "lat": 33.4484,
+  "lon": -112.074,
+  "holidays": {
+   "country": "US",
+   "subdiv": "AZ"
+  },
+  "label": "PHX"
+ },
+ {
+  "id": "las-vegas-us",
+  "name": "Las Vegas",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Los_Angeles",
+  "lat": 36.1699,
+  "lon": -115.1398,
+  "holidays": {
+   "country": "US",
+   "subdiv": "NV"
+  },
+  "label": "LV"
+ },
+ {
+  "id": "san-diego-us",
+  "name": "San Diego",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Los_Angeles",
+  "lat": 32.7157,
+  "lon": -117.1611,
+  "holidays": {
+   "country": "US",
+   "subdiv": "CA"
+  },
+  "label": "SD"
+ },
+ {
+  "id": "philadelphia-us",
+  "name": "Philadelphia",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/New_York",
+  "lat": 39.9526,
+  "lon": -75.1652,
+  "holidays": {
+   "country": "US",
+   "subdiv": "PA"
+  },
+  "label": "PHL"
+ },
+ {
+  "id": "detroit-us",
+  "name": "Detroit",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Detroit",
+  "lat": 42.3314,
+  "lon": -83.0458,
+  "holidays": {
+   "country": "US",
+   "subdiv": "MI"
+  },
+  "label": "DET"
+ },
+ {
+  "id": "minneapolis-us",
+  "name": "Minneapolis",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Chicago",
+  "lat": 44.9778,
+  "lon": -93.265,
+  "holidays": {
+   "country": "US",
+   "subdiv": "MN"
+  },
+  "label": "MSP"
+ },
+ {
+  "id": "portland-us",
+  "name": "Portland",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Los_Angeles",
+  "lat": 45.5152,
+  "lon": -122.6784,
+  "holidays": {
+   "country": "US",
+   "subdiv": "OR"
+  },
+  "label": "PDX"
+ },
+ {
+  "id": "nashville-us",
+  "name": "Nashville",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Chicago",
+  "lat": 36.1627,
+  "lon": -86.7816,
+  "holidays": {
+   "country": "US",
+   "subdiv": "TN"
+  },
+  "label": "BNA"
+ },
+ {
+  "id": "new-orleans-us",
+  "name": "New Orleans",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Chicago",
+  "lat": 29.9511,
+  "lon": -90.0715,
+  "holidays": {
+   "country": "US",
+   "subdiv": "LA"
+  },
+  "label": "NOL"
+ },
+ {
+  "id": "salt-lake-city-us",
+  "name": "Salt Lake City",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Denver",
+  "lat": 40.7608,
+  "lon": -111.891,
+  "holidays": {
+   "country": "US",
+   "subdiv": "UT"
+  },
+  "label": "SLC"
+ },
+ {
+  "id": "honolulu-us",
+  "name": "Honolulu",
+  "country": "United States",
+  "cc": "US",
+  "tz": "Pacific/Honolulu",
+  "lat": 21.3069,
+  "lon": -157.8583,
+  "holidays": {
+   "country": "US",
+   "subdiv": "HI"
+  },
+  "label": "HNL"
+ },
+ {
+  "id": "anchorage-us",
+  "name": "Anchorage",
+  "country": "United States",
+  "cc": "US",
+  "tz": "America/Anchorage",
+  "lat": 61.2181,
+  "lon": -149.9003,
+  "holidays": {
+   "country": "US",
+   "subdiv": "AK"
+  },
+  "label": "ANC"
+ },
+ {
+  "id": "toronto-ca",
+  "name": "Toronto",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Toronto",
+  "lat": 43.6532,
+  "lon": -79.3832,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "ON"
+  },
+  "label": "TOR"
+ },
+ {
+  "id": "montreal-ca",
+  "name": "Montreal",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Toronto",
+  "lat": 45.5017,
+  "lon": -73.5673,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "QC"
+  },
+  "label": "MTL"
+ },
+ {
+  "id": "vancouver-ca",
+  "name": "Vancouver",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Vancouver",
+  "lat": 49.2827,
+  "lon": -123.1207,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "BC"
+  },
+  "label": "VAN"
+ },
+ {
+  "id": "calgary-ca",
+  "name": "Calgary",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Edmonton",
+  "lat": 51.0447,
+  "lon": -114.0719,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "AB"
+  },
+  "label": "YYC"
+ },
+ {
+  "id": "edmonton-ca",
+  "name": "Edmonton",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Edmonton",
+  "lat": 53.5461,
+  "lon": -113.4938,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "AB"
+  },
+  "label": "EDM"
+ },
+ {
+  "id": "ottawa-ca",
+  "name": "Ottawa",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Toronto",
+  "lat": 45.4215,
+  "lon": -75.6972,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "ON"
+  },
+  "label": "OTT"
+ },
+ {
+  "id": "winnipeg-ca",
+  "name": "Winnipeg",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Winnipeg",
+  "lat": 49.8951,
+  "lon": -97.1384,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "MB"
+  },
+  "label": "WPG"
+ },
+ {
+  "id": "halifax-ca",
+  "name": "Halifax",
+  "country": "Canada",
+  "cc": "CA",
+  "tz": "America/Halifax",
+  "lat": 44.6488,
+  "lon": -63.5752,
+  "holidays": {
+   "country": "CA",
+   "subdiv": "NS"
+  },
+  "label": "HAL"
+ },
+ {
+  "id": "mexico-city-mx",
+  "name": "Mexico City",
+  "country": "Mexico",
+  "cc": "MX",
+  "tz": "America/Mexico_City",
+  "lat": 19.4326,
+  "lon": -99.1332,
+  "holidays": {
+   "country": "MX",
+   "subdiv": null
+  },
+  "label": "MEX"
+ },
+ {
+  "id": "guadalajara-mx",
+  "name": "Guadalajara",
+  "country": "Mexico",
+  "cc": "MX",
+  "tz": "America/Mexico_City",
+  "lat": 20.6597,
+  "lon": -103.3496,
+  "holidays": {
+   "country": "MX",
+   "subdiv": null
+  },
+  "label": "GDL"
+ },
+ {
+  "id": "monterrey-mx",
+  "name": "Monterrey",
+  "country": "Mexico",
+  "cc": "MX",
+  "tz": "America/Monterrey",
+  "lat": 25.6866,
+  "lon": -100.3161,
+  "holidays": {
+   "country": "MX",
+   "subdiv": null
+  },
+  "label": "MTY"
+ },
+ {
+  "id": "cancun-mx",
+  "name": "Cancún",
+  "country": "Mexico",
+  "cc": "MX",
+  "tz": "America/Cancun",
+  "lat": 21.1619,
+  "lon": -86.8515,
+  "holidays": {
+   "country": "MX",
+   "subdiv": null
+  },
+  "label": "CUN"
+ },
+ {
+  "id": "nuuk-gl",
+  "name": "Nuuk",
+  "country": "Greenland",
+  "cc": "GL",
+  "tz": "America/Nuuk",
+  "lat": 64.1814,
+  "lon": -51.6941,
+  "holidays": {
+   "country": "GL",
+   "subdiv": null
+  },
+  "label": "NUK"
+ },
+ {
+  "id": "guatemala-city-gt",
+  "name": "Guatemala City",
+  "country": "Guatemala",
+  "cc": "GT",
+  "tz": "America/Guatemala",
+  "lat": 14.6349,
+  "lon": -90.5069,
+  "holidays": {
+   "country": "GT",
+   "subdiv": null
+  },
+  "label": "GUA"
+ },
+ {
+  "id": "san-salvador-sv",
+  "name": "San Salvador",
+  "country": "El Salvador",
+  "cc": "SV",
+  "tz": "America/El_Salvador",
+  "lat": 13.6929,
+  "lon": -89.2182,
+  "holidays": {
+   "country": "SV",
+   "subdiv": null
+  },
+  "label": "SAL"
+ },
+ {
+  "id": "tegucigalpa-hn",
+  "name": "Tegucigalpa",
+  "country": "Honduras",
+  "cc": "HN",
+  "tz": "America/Tegucigalpa",
+  "lat": 14.0723,
+  "lon": -87.1921,
+  "holidays": {
+   "country": "HN",
+   "subdiv": null
+  },
+  "label": "TGU"
+ },
+ {
+  "id": "managua-ni",
+  "name": "Managua",
+  "country": "Nicaragua",
+  "cc": "NI",
+  "tz": "America/Managua",
+  "lat": 12.1364,
+  "lon": -86.2514,
+  "holidays": {
+   "country": "NI",
+   "subdiv": null
+  },
+  "label": "MGA"
+ },
+ {
+  "id": "san-jose-cr",
+  "name": "San José",
+  "country": "Costa Rica",
+  "cc": "CR",
+  "tz": "America/Costa_Rica",
+  "lat": 9.9281,
+  "lon": -84.0907,
+  "holidays": {
+   "country": "CR",
+   "subdiv": null
+  },
+  "label": "SJO"
+ },
+ {
+  "id": "panama-city-pa",
+  "name": "Panama City",
+  "country": "Panama",
+  "cc": "PA",
+  "tz": "America/Panama",
+  "lat": 8.9824,
+  "lon": -79.5199,
+  "holidays": {
+   "country": "PA",
+   "subdiv": null
+  },
+  "label": "PTY"
+ },
+ {
+  "id": "havana-cu",
+  "name": "Havana",
+  "country": "Cuba",
+  "cc": "CU",
+  "tz": "America/Havana",
+  "lat": 23.1136,
+  "lon": -82.3666,
+  "holidays": {
+   "country": "CU",
+   "subdiv": null
+  },
+  "label": "HAV"
+ },
+ {
+  "id": "kingston-jm",
+  "name": "Kingston",
+  "country": "Jamaica",
+  "cc": "JM",
+  "tz": "America/Jamaica",
+  "lat": 17.9714,
+  "lon": -76.7936,
+  "holidays": {
+   "country": "JM",
+   "subdiv": null
+  },
+  "label": "KIN"
+ },
+ {
+  "id": "santo-domingo-do",
+  "name": "Santo Domingo",
+  "country": "Dominican Republic",
+  "cc": "DO",
+  "tz": "America/Santo_Domingo",
+  "lat": 18.4861,
+  "lon": -69.9312,
+  "holidays": {
+   "country": "DO",
+   "subdiv": null
+  },
+  "label": "SDQ"
+ },
+ {
+  "id": "san-juan-pr",
+  "name": "San Juan",
+  "country": "Puerto Rico",
+  "cc": "PR",
+  "tz": "America/Puerto_Rico",
+  "lat": 18.4655,
+  "lon": -66.1057,
+  "holidays": {
+   "country": "PR",
+   "subdiv": null
+  },
+  "label": "SJU"
+ },
+ {
+  "id": "port-of-spain-tt",
+  "name": "Port of Spain",
+  "country": "Trinidad & Tobago",
+  "cc": "TT",
+  "tz": "America/Port_of_Spain",
+  "lat": 10.6549,
+  "lon": -61.5019,
+  "holidays": {
+   "country": "TT",
+   "subdiv": null
+  },
+  "label": "POS"
+ },
+ {
+  "id": "nassau-bs",
+  "name": "Nassau",
+  "country": "Bahamas",
+  "cc": "BS",
+  "tz": "America/Nassau",
+  "lat": 25.0443,
+  "lon": -77.3504,
+  "holidays": {
+   "country": "BS",
+   "subdiv": null
+  },
+  "label": "NAS"
+ },
+ {
+  "id": "bridgetown-bb",
+  "name": "Bridgetown",
+  "country": "Barbados",
+  "cc": "BB",
+  "tz": "America/Barbados",
+  "lat": 13.0975,
+  "lon": -59.6167,
+  "holidays": {
+   "country": "BB",
+   "subdiv": null
+  },
+  "label": "BGI"
+ },
+ {
+  "id": "sao-paulo-br",
+  "name": "São Paulo",
+  "country": "Brazil",
+  "cc": "BR",
+  "tz": "America/Sao_Paulo",
+  "lat": -23.5505,
+  "lon": -46.6333,
+  "holidays": {
+   "country": "BR",
+   "subdiv": "SP"
+  },
+  "label": "SAO"
+ },
+ {
+  "id": "rio-de-janeiro-br",
+  "name": "Rio de Janeiro",
+  "country": "Brazil",
+  "cc": "BR",
+  "tz": "America/Sao_Paulo",
+  "lat": -22.9068,
+  "lon": -43.1729,
+  "holidays": {
+   "country": "BR",
+   "subdiv": "RJ"
+  },
+  "label": "RIO"
+ },
+ {
+  "id": "brasilia-br",
+  "name": "Brasília",
+  "country": "Brazil",
+  "cc": "BR",
+  "tz": "America/Sao_Paulo",
+  "lat": -15.7939,
+  "lon": -47.8828,
+  "holidays": {
+   "country": "BR",
+   "subdiv": "DF"
+  },
+  "label": "BSB"
+ },
+ {
+  "id": "buenos-aires-ar",
+  "name": "Buenos Aires",
+  "country": "Argentina",
+  "cc": "AR",
+  "tz": "America/Argentina/Buenos_Aires",
+  "lat": -34.6037,
+  "lon": -58.3816,
+  "holidays": {
+   "country": "AR",
+   "subdiv": null
+  },
+  "label": "BUE"
+ },
+ {
+  "id": "santiago-cl",
+  "name": "Santiago",
+  "country": "Chile",
+  "cc": "CL",
+  "tz": "America/Santiago",
+  "lat": -33.4489,
+  "lon": -70.6693,
+  "holidays": {
+   "country": "CL",
+   "subdiv": null
+  },
+  "label": "SCL"
+ },
+ {
+  "id": "lima-pe",
+  "name": "Lima",
+  "country": "Peru",
+  "cc": "PE",
+  "tz": "America/Lima",
+  "lat": -12.0464,
+  "lon": -77.0428,
+  "holidays": {
+   "country": "PE",
+   "subdiv": null
+  },
+  "label": "LIM"
+ },
+ {
+  "id": "bogota-co",
+  "name": "Bogotá",
+  "country": "Colombia",
+  "cc": "CO",
+  "tz": "America/Bogota",
+  "lat": 4.711,
+  "lon": -74.0721,
+  "holidays": {
+   "country": "CO",
+   "subdiv": null
+  },
+  "label": "BOG"
+ },
+ {
+  "id": "medellin-co",
+  "name": "Medellín",
+  "country": "Colombia",
+  "cc": "CO",
+  "tz": "America/Bogota",
+  "lat": 6.2442,
+  "lon": -75.5812,
+  "holidays": {
+   "country": "CO",
+   "subdiv": null
+  },
+  "label": "MDE"
+ },
+ {
+  "id": "caracas-ve",
+  "name": "Caracas",
+  "country": "Venezuela",
+  "cc": "VE",
+  "tz": "America/Caracas",
+  "lat": 10.4806,
+  "lon": -66.9036,
+  "holidays": {
+   "country": "VE",
+   "subdiv": null
+  },
+  "label": "CCS"
+ },
+ {
+  "id": "quito-ec",
+  "name": "Quito",
+  "country": "Ecuador",
+  "cc": "EC",
+  "tz": "America/Guayaquil",
+  "lat": -0.1807,
+  "lon": -78.4678,
+  "holidays": {
+   "country": "EC",
+   "subdiv": null
+  },
+  "label": "UIO"
+ },
+ {
+  "id": "guayaquil-ec",
+  "name": "Guayaquil",
+  "country": "Ecuador",
+  "cc": "EC",
+  "tz": "America/Guayaquil",
+  "lat": -2.1709,
+  "lon": -79.9224,
+  "holidays": {
+   "country": "EC",
+   "subdiv": null
+  },
+  "label": "GYE"
+ },
+ {
+  "id": "la-paz-bo",
+  "name": "La Paz",
+  "country": "Bolivia",
+  "cc": "BO",
+  "tz": "America/La_Paz",
+  "lat": -16.4897,
+  "lon": -68.1193,
+  "holidays": {
+   "country": "BO",
+   "subdiv": null
+  },
+  "label": "LPB"
+ },
+ {
+  "id": "asuncion-py",
+  "name": "Asunción",
+  "country": "Paraguay",
+  "cc": "PY",
+  "tz": "America/Asuncion",
+  "lat": -25.2637,
+  "lon": -57.5759,
+  "holidays": {
+   "country": "PY",
+   "subdiv": null
+  },
+  "label": "ASU"
+ },
+ {
+  "id": "montevideo-uy",
+  "name": "Montevideo",
+  "country": "Uruguay",
+  "cc": "UY",
+  "tz": "America/Montevideo",
+  "lat": -34.9011,
+  "lon": -56.1645,
+  "holidays": {
+   "country": "UY",
+   "subdiv": null
+  },
+  "label": "MVD"
+ },
+ {
+  "id": "georgetown-gy",
+  "name": "Georgetown",
+  "country": "Guyana",
+  "cc": "GY",
+  "tz": "America/Guyana",
+  "lat": 6.8013,
+  "lon": -58.1551,
+  "holidays": {
+   "country": "GY",
+   "subdiv": null
+  },
+  "label": "GEO"
+ },
+ {
+  "id": "paramaribo-sr",
+  "name": "Paramaribo",
+  "country": "Suriname",
+  "cc": "SR",
+  "tz": "America/Paramaribo",
+  "lat": 5.852,
+  "lon": -55.2038,
+  "holidays": {
+   "country": "SR",
+   "subdiv": null
+  },
+  "label": "PBM"
+ },
+ {
+  "id": "london-gb",
+  "name": "London",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "tz": "Europe/London",
+  "lat": 51.5074,
+  "lon": -0.1278,
+  "holidays": {
+   "country": "GB",
+   "subdiv": "ENG"
+  },
+  "label": "LON"
+ },
+ {
+  "id": "manchester-gb",
+  "name": "Manchester",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "tz": "Europe/London",
+  "lat": 53.4808,
+  "lon": -2.2426,
+  "holidays": {
+   "country": "GB",
+   "subdiv": "ENG"
+  },
+  "label": "MAN"
+ },
+ {
+  "id": "edinburgh-gb",
+  "name": "Edinburgh",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "tz": "Europe/London",
+  "lat": 55.9533,
+  "lon": -3.1883,
+  "holidays": {
+   "country": "GB",
+   "subdiv": "SCT"
+  },
+  "label": "EDI"
+ },
+ {
+  "id": "glasgow-gb",
+  "name": "Glasgow",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "tz": "Europe/London",
+  "lat": 55.8642,
+  "lon": -4.2518,
+  "holidays": {
+   "country": "GB",
+   "subdiv": "SCT"
+  },
+  "label": "GLA"
+ },
+ {
+  "id": "cardiff-gb",
+  "name": "Cardiff",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "tz": "Europe/London",
+  "lat": 51.4816,
+  "lon": -3.1791,
+  "holidays": {
+   "country": "GB",
+   "subdiv": "WLS"
+  },
+  "label": "CWL"
+ },
+ {
+  "id": "belfast-gb",
+  "name": "Belfast",
+  "country": "United Kingdom",
+  "cc": "GB",
+  "tz": "Europe/London",
+  "lat": 54.5973,
+  "lon": -5.9301,
+  "holidays": {
+   "country": "GB",
+   "subdiv": "NIR"
+  },
+  "label": "BFS"
+ },
+ {
+  "id": "dublin-ie",
+  "name": "Dublin",
+  "country": "Ireland",
+  "cc": "IE",
+  "tz": "Europe/Dublin",
+  "lat": 53.3498,
+  "lon": -6.2603,
+  "holidays": {
+   "country": "IE",
+   "subdiv": null
+  },
+  "label": "DUB"
+ },
+ {
+  "id": "paris-fr",
+  "name": "Paris",
+  "country": "France",
+  "cc": "FR",
+  "tz": "Europe/Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "holidays": {
+   "country": "FR",
+   "subdiv": null
+  },
+  "label": "PAR"
+ },
+ {
+  "id": "lyon-fr",
+  "name": "Lyon",
+  "country": "France",
+  "cc": "FR",
+  "tz": "Europe/Paris",
+  "lat": 45.764,
+  "lon": 4.8357,
+  "holidays": {
+   "country": "FR",
+   "subdiv": null
+  },
+  "label": "LYS"
+ },
+ {
+  "id": "marseille-fr",
+  "name": "Marseille",
+  "country": "France",
+  "cc": "FR",
+  "tz": "Europe/Paris",
+  "lat": 43.2965,
+  "lon": 5.3698,
+  "holidays": {
+   "country": "FR",
+   "subdiv": null
+  },
+  "label": "MRS"
+ },
+ {
+  "id": "nice-fr",
+  "name": "Nice",
+  "country": "France",
+  "cc": "FR",
+  "tz": "Europe/Paris",
+  "lat": 43.7102,
+  "lon": 7.262,
+  "holidays": {
+   "country": "FR",
+   "subdiv": null
+  },
+  "label": "NCE"
+ },
+ {
+  "id": "berlin-de",
+  "name": "Berlin",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 52.52,
+  "lon": 13.405,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "BE"
+  },
+  "label": "BER"
+ },
+ {
+  "id": "munich-de",
+  "name": "Munich",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 48.1351,
+  "lon": 11.582,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "BY"
+  },
+  "label": "MUC"
+ },
+ {
+  "id": "hamburg-de",
+  "name": "Hamburg",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 53.5511,
+  "lon": 9.9937,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "HH"
+  },
+  "label": "HAM"
+ },
+ {
+  "id": "frankfurt-de",
+  "name": "Frankfurt",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 50.1109,
+  "lon": 8.6821,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "HE"
+  },
+  "label": "FRA"
+ },
+ {
+  "id": "cologne-de",
+  "name": "Cologne",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 50.9375,
+  "lon": 6.9603,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "NW"
+  },
+  "label": "CGN"
+ },
+ {
+  "id": "dusseldorf-de",
+  "name": "Düsseldorf",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 51.2277,
+  "lon": 6.7735,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "NW"
+  },
+  "label": "DUS"
+ },
+ {
+  "id": "stuttgart-de",
+  "name": "Stuttgart",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 48.7758,
+  "lon": 9.1829,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "BW"
+  },
+  "label": "STR"
+ },
+ {
+  "id": "leipzig-de",
+  "name": "Leipzig",
+  "country": "Germany",
+  "cc": "DE",
+  "tz": "Europe/Berlin",
+  "lat": 51.3397,
+  "lon": 12.3731,
+  "holidays": {
+   "country": "DE",
+   "subdiv": "SN"
+  },
+  "label": "LEJ"
+ },
+ {
+  "id": "amsterdam-nl",
+  "name": "Amsterdam",
+  "country": "Netherlands",
+  "cc": "NL",
+  "tz": "Europe/Amsterdam",
+  "lat": 52.3676,
+  "lon": 4.9041,
+  "holidays": {
+   "country": "NL",
+   "subdiv": null
+  },
+  "label": "AMS"
+ },
+ {
+  "id": "rotterdam-nl",
+  "name": "Rotterdam",
+  "country": "Netherlands",
+  "cc": "NL",
+  "tz": "Europe/Amsterdam",
+  "lat": 51.9244,
+  "lon": 4.4777,
+  "holidays": {
+   "country": "NL",
+   "subdiv": null
+  },
+  "label": "RTM"
+ },
+ {
+  "id": "the-hague-nl",
+  "name": "The Hague",
+  "country": "Netherlands",
+  "cc": "NL",
+  "tz": "Europe/Amsterdam",
+  "lat": 52.0705,
+  "lon": 4.3007,
+  "holidays": {
+   "country": "NL",
+   "subdiv": null
+  },
+  "label": "HAG"
+ },
+ {
+  "id": "brussels-be",
+  "name": "Brussels",
+  "country": "Belgium",
+  "cc": "BE",
+  "tz": "Europe/Brussels",
+  "lat": 50.8503,
+  "lon": 4.3517,
+  "holidays": {
+   "country": "BE",
+   "subdiv": null
+  },
+  "label": "BRU"
+ },
+ {
+  "id": "antwerp-be",
+  "name": "Antwerp",
+  "country": "Belgium",
+  "cc": "BE",
+  "tz": "Europe/Brussels",
+  "lat": 51.2194,
+  "lon": 4.4025,
+  "holidays": {
+   "country": "BE",
+   "subdiv": null
+  },
+  "label": "ANR"
+ },
+ {
+  "id": "luxembourg-lu",
+  "name": "Luxembourg",
+  "country": "Luxembourg",
+  "cc": "LU",
+  "tz": "Europe/Luxembourg",
+  "lat": 49.6116,
+  "lon": 6.1319,
+  "holidays": {
+   "country": "LU",
+   "subdiv": null
+  },
+  "label": "LUX"
+ },
+ {
+  "id": "zurich-ch",
+  "name": "Zurich",
+  "country": "Switzerland",
+  "cc": "CH",
+  "tz": "Europe/Zurich",
+  "lat": 47.3769,
+  "lon": 8.5417,
+  "holidays": {
+   "country": "CH",
+   "subdiv": "ZH"
+  },
+  "label": "ZRH"
+ },
+ {
+  "id": "geneva-ch",
+  "name": "Geneva",
+  "country": "Switzerland",
+  "cc": "CH",
+  "tz": "Europe/Zurich",
+  "lat": 46.2044,
+  "lon": 6.1432,
+  "holidays": {
+   "country": "CH",
+   "subdiv": "GE"
+  },
+  "label": "GVA"
+ },
+ {
+  "id": "basel-ch",
+  "name": "Basel",
+  "country": "Switzerland",
+  "cc": "CH",
+  "tz": "Europe/Zurich",
+  "lat": 47.5596,
+  "lon": 7.5886,
+  "holidays": {
+   "country": "CH",
+   "subdiv": "BS"
+  },
+  "label": "BSL"
+ },
+ {
+  "id": "bern-ch",
+  "name": "Bern",
+  "country": "Switzerland",
+  "cc": "CH",
+  "tz": "Europe/Zurich",
+  "lat": 46.948,
+  "lon": 7.4474,
+  "holidays": {
+   "country": "CH",
+   "subdiv": "BE"
+  },
+  "label": "BRN"
+ },
+ {
+  "id": "lausanne-ch",
+  "name": "Lausanne",
+  "country": "Switzerland",
+  "cc": "CH",
+  "tz": "Europe/Zurich",
+  "lat": 46.5197,
+  "lon": 6.6323,
+  "holidays": {
+   "country": "CH",
+   "subdiv": "VD"
+  },
+  "label": "LSN"
+ },
+ {
+  "id": "vienna-at",
+  "name": "Vienna",
+  "country": "Austria",
+  "cc": "AT",
+  "tz": "Europe/Vienna",
+  "lat": 48.2082,
+  "lon": 16.3738,
+  "holidays": {
+   "country": "AT",
+   "subdiv": "9"
+  },
+  "label": "VIE"
+ },
+ {
+  "id": "salzburg-at",
+  "name": "Salzburg",
+  "country": "Austria",
+  "cc": "AT",
+  "tz": "Europe/Vienna",
+  "lat": 47.8095,
+  "lon": 13.055,
+  "holidays": {
+   "country": "AT",
+   "subdiv": "5"
+  },
+  "label": "SZG"
+ },
+ {
+  "id": "madrid-es",
+  "name": "Madrid",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Europe/Madrid",
+  "lat": 40.4168,
+  "lon": -3.7038,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "MD"
+  },
+  "label": "MAD"
+ },
+ {
+  "id": "barcelona-es",
+  "name": "Barcelona",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Europe/Madrid",
+  "lat": 41.3851,
+  "lon": 2.1734,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "CT"
+  },
+  "label": "BCN"
+ },
+ {
+  "id": "valencia-es",
+  "name": "Valencia",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Europe/Madrid",
+  "lat": 39.4699,
+  "lon": -0.3763,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "VC"
+  },
+  "label": "VLC"
+ },
+ {
+  "id": "seville-es",
+  "name": "Seville",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Europe/Madrid",
+  "lat": 37.3891,
+  "lon": -5.9845,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "AN"
+  },
+  "label": "SVQ"
+ },
+ {
+  "id": "malaga-es",
+  "name": "Málaga",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Europe/Madrid",
+  "lat": 36.7213,
+  "lon": -4.4214,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "AN"
+  },
+  "label": "AGP"
+ },
+ {
+  "id": "bilbao-es",
+  "name": "Bilbao",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Europe/Madrid",
+  "lat": 43.263,
+  "lon": -2.935,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "PV"
+  },
+  "label": "BIO"
+ },
+ {
+  "id": "palma-es",
+  "name": "Palma",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Europe/Madrid",
+  "lat": 39.5696,
+  "lon": 2.6502,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "IB"
+  },
+  "label": "PMI"
+ },
+ {
+  "id": "las-palmas-es",
+  "name": "Las Palmas",
+  "country": "Spain",
+  "cc": "ES",
+  "tz": "Atlantic/Canary",
+  "lat": 28.1235,
+  "lon": -15.4363,
+  "holidays": {
+   "country": "ES",
+   "subdiv": "CN"
+  },
+  "label": "LPA"
+ },
+ {
+  "id": "lisbon-pt",
+  "name": "Lisbon",
+  "country": "Portugal",
+  "cc": "PT",
+  "tz": "Europe/Lisbon",
+  "lat": 38.7223,
+  "lon": -9.1393,
+  "holidays": {
+   "country": "PT",
+   "subdiv": null
+  },
+  "label": "LIS"
+ },
+ {
+  "id": "porto-pt",
+  "name": "Porto",
+  "country": "Portugal",
+  "cc": "PT",
+  "tz": "Europe/Lisbon",
+  "lat": 41.1579,
+  "lon": -8.6291,
+  "holidays": {
+   "country": "PT",
+   "subdiv": null
+  },
+  "label": "OPO"
+ },
+ {
+  "id": "rome-it",
+  "name": "Rome",
+  "country": "Italy",
+  "cc": "IT",
+  "tz": "Europe/Rome",
+  "lat": 41.9028,
+  "lon": 12.4964,
+  "holidays": {
+   "country": "IT",
+   "subdiv": null
+  },
+  "label": "ROM"
+ },
+ {
+  "id": "milan-it",
+  "name": "Milan",
+  "country": "Italy",
+  "cc": "IT",
+  "tz": "Europe/Rome",
+  "lat": 45.4642,
+  "lon": 9.19,
+  "holidays": {
+   "country": "IT",
+   "subdiv": null
+  },
+  "label": "MIL"
+ },
+ {
+  "id": "naples-it",
+  "name": "Naples",
+  "country": "Italy",
+  "cc": "IT",
+  "tz": "Europe/Rome",
+  "lat": 40.8518,
+  "lon": 14.2681,
+  "holidays": {
+   "country": "IT",
+   "subdiv": null
+  },
+  "label": "NAP"
+ },
+ {
+  "id": "florence-it",
+  "name": "Florence",
+  "country": "Italy",
+  "cc": "IT",
+  "tz": "Europe/Rome",
+  "lat": 43.7696,
+  "lon": 11.2558,
+  "holidays": {
+   "country": "IT",
+   "subdiv": null
+  },
+  "label": "FLR"
+ },
+ {
+  "id": "turin-it",
+  "name": "Turin",
+  "country": "Italy",
+  "cc": "IT",
+  "tz": "Europe/Rome",
+  "lat": 45.0703,
+  "lon": 7.6869,
+  "holidays": {
+   "country": "IT",
+   "subdiv": null
+  },
+  "label": "TRN"
+ },
+ {
+  "id": "venice-it",
+  "name": "Venice",
+  "country": "Italy",
+  "cc": "IT",
+  "tz": "Europe/Rome",
+  "lat": 45.4408,
+  "lon": 12.3155,
+  "holidays": {
+   "country": "IT",
+   "subdiv": null
+  },
+  "label": "VCE"
+ },
+ {
+  "id": "athens-gr",
+  "name": "Athens",
+  "country": "Greece",
+  "cc": "GR",
+  "tz": "Europe/Athens",
+  "lat": 37.9838,
+  "lon": 23.7275,
+  "holidays": {
+   "country": "GR",
+   "subdiv": null
+  },
+  "label": "ATH"
+ },
+ {
+  "id": "thessaloniki-gr",
+  "name": "Thessaloniki",
+  "country": "Greece",
+  "cc": "GR",
+  "tz": "Europe/Athens",
+  "lat": 40.6401,
+  "lon": 22.9444,
+  "holidays": {
+   "country": "GR",
+   "subdiv": null
+  },
+  "label": "SKG"
+ },
+ {
+  "id": "copenhagen-dk",
+  "name": "Copenhagen",
+  "country": "Denmark",
+  "cc": "DK",
+  "tz": "Europe/Copenhagen",
+  "lat": 55.6761,
+  "lon": 12.5683,
+  "holidays": {
+   "country": "DK",
+   "subdiv": null
+  },
+  "label": "CPH"
+ },
+ {
+  "id": "stockholm-se",
+  "name": "Stockholm",
+  "country": "Sweden",
+  "cc": "SE",
+  "tz": "Europe/Stockholm",
+  "lat": 59.3293,
+  "lon": 18.0686,
+  "holidays": {
+   "country": "SE",
+   "subdiv": null
+  },
+  "label": "STO"
+ },
+ {
+  "id": "gothenburg-se",
+  "name": "Gothenburg",
+  "country": "Sweden",
+  "cc": "SE",
+  "tz": "Europe/Stockholm",
+  "lat": 57.7089,
+  "lon": 11.9746,
+  "holidays": {
+   "country": "SE",
+   "subdiv": null
+  },
+  "label": "GOT"
+ },
+ {
+  "id": "oslo-no",
+  "name": "Oslo",
+  "country": "Norway",
+  "cc": "NO",
+  "tz": "Europe/Oslo",
+  "lat": 59.9139,
+  "lon": 10.7522,
+  "holidays": {
+   "country": "NO",
+   "subdiv": null
+  },
+  "label": "OSL"
+ },
+ {
+  "id": "bergen-no",
+  "name": "Bergen",
+  "country": "Norway",
+  "cc": "NO",
+  "tz": "Europe/Oslo",
+  "lat": 60.3913,
+  "lon": 5.3221,
+  "holidays": {
+   "country": "NO",
+   "subdiv": null
+  },
+  "label": "BGO"
+ },
+ {
+  "id": "helsinki-fi",
+  "name": "Helsinki",
+  "country": "Finland",
+  "cc": "FI",
+  "tz": "Europe/Helsinki",
+  "lat": 60.1699,
+  "lon": 24.9384,
+  "holidays": {
+   "country": "FI",
+   "subdiv": null
+  },
+  "label": "HEL"
+ },
+ {
+  "id": "reykjavik-is",
+  "name": "Reykjavík",
+  "country": "Iceland",
+  "cc": "IS",
+  "tz": "Atlantic/Reykjavik",
+  "lat": 64.1466,
+  "lon": -21.9426,
+  "holidays": {
+   "country": "IS",
+   "subdiv": null
+  },
+  "label": "REK"
+ },
+ {
+  "id": "tallinn-ee",
+  "name": "Tallinn",
+  "country": "Estonia",
+  "cc": "EE",
+  "tz": "Europe/Tallinn",
+  "lat": 59.437,
+  "lon": 24.7536,
+  "holidays": {
+   "country": "EE",
+   "subdiv": null
+  },
+  "label": "TLL"
+ },
+ {
+  "id": "riga-lv",
+  "name": "Riga",
+  "country": "Latvia",
+  "cc": "LV",
+  "tz": "Europe/Riga",
+  "lat": 56.9496,
+  "lon": 24.1052,
+  "holidays": {
+   "country": "LV",
+   "subdiv": null
+  },
+  "label": "RIX"
+ },
+ {
+  "id": "vilnius-lt",
+  "name": "Vilnius",
+  "country": "Lithuania",
+  "cc": "LT",
+  "tz": "Europe/Vilnius",
+  "lat": 54.6872,
+  "lon": 25.2797,
+  "holidays": {
+   "country": "LT",
+   "subdiv": null
+  },
+  "label": "VNO"
+ },
+ {
+  "id": "warsaw-pl",
+  "name": "Warsaw",
+  "country": "Poland",
+  "cc": "PL",
+  "tz": "Europe/Warsaw",
+  "lat": 52.2297,
+  "lon": 21.0122,
+  "holidays": {
+   "country": "PL",
+   "subdiv": null
+  },
+  "label": "WAW"
+ },
+ {
+  "id": "krakow-pl",
+  "name": "Kraków",
+  "country": "Poland",
+  "cc": "PL",
+  "tz": "Europe/Warsaw",
+  "lat": 50.0647,
+  "lon": 19.945,
+  "holidays": {
+   "country": "PL",
+   "subdiv": null
+  },
+  "label": "KRK"
+ },
+ {
+  "id": "gdansk-pl",
+  "name": "Gdańsk",
+  "country": "Poland",
+  "cc": "PL",
+  "tz": "Europe/Warsaw",
+  "lat": 54.352,
+  "lon": 18.6466,
+  "holidays": {
+   "country": "PL",
+   "subdiv": null
+  },
+  "label": "GDN"
+ },
+ {
+  "id": "wrocaw-pl",
+  "name": "Wrocław",
+  "country": "Poland",
+  "cc": "PL",
+  "tz": "Europe/Warsaw",
+  "lat": 51.1079,
+  "lon": 17.0385,
+  "holidays": {
+   "country": "PL",
+   "subdiv": null
+  },
+  "label": "WRO"
+ },
+ {
+  "id": "prague-cz",
+  "name": "Prague",
+  "country": "Czechia",
+  "cc": "CZ",
+  "tz": "Europe/Prague",
+  "lat": 50.0755,
+  "lon": 14.4378,
+  "holidays": {
+   "country": "CZ",
+   "subdiv": null
+  },
+  "label": "PRG"
+ },
+ {
+  "id": "brno-cz",
+  "name": "Brno",
+  "country": "Czechia",
+  "cc": "CZ",
+  "tz": "Europe/Prague",
+  "lat": 49.1951,
+  "lon": 16.6068,
+  "holidays": {
+   "country": "CZ",
+   "subdiv": null
+  },
+  "label": "BRQ"
+ },
+ {
+  "id": "bratislava-sk",
+  "name": "Bratislava",
+  "country": "Slovakia",
+  "cc": "SK",
+  "tz": "Europe/Bratislava",
+  "lat": 48.1486,
+  "lon": 17.1077,
+  "holidays": {
+   "country": "SK",
+   "subdiv": null
+  },
+  "label": "BTS"
+ },
+ {
+  "id": "budapest-hu",
+  "name": "Budapest",
+  "country": "Hungary",
+  "cc": "HU",
+  "tz": "Europe/Budapest",
+  "lat": 47.4979,
+  "lon": 19.0402,
+  "holidays": {
+   "country": "HU",
+   "subdiv": null
+  },
+  "label": "BUD"
+ },
+ {
+  "id": "ljubljana-si",
+  "name": "Ljubljana",
+  "country": "Slovenia",
+  "cc": "SI",
+  "tz": "Europe/Ljubljana",
+  "lat": 46.0569,
+  "lon": 14.5058,
+  "holidays": {
+   "country": "SI",
+   "subdiv": null
+  },
+  "label": "LJU"
+ },
+ {
+  "id": "zagreb-hr",
+  "name": "Zagreb",
+  "country": "Croatia",
+  "cc": "HR",
+  "tz": "Europe/Zagreb",
+  "lat": 45.815,
+  "lon": 15.9819,
+  "holidays": {
+   "country": "HR",
+   "subdiv": null
+  },
+  "label": "ZAG"
+ },
+ {
+  "id": "split-hr",
+  "name": "Split",
+  "country": "Croatia",
+  "cc": "HR",
+  "tz": "Europe/Zagreb",
+  "lat": 43.5081,
+  "lon": 16.4402,
+  "holidays": {
+   "country": "HR",
+   "subdiv": null
+  },
+  "label": "SPU"
+ },
+ {
+  "id": "belgrade-rs",
+  "name": "Belgrade",
+  "country": "Serbia",
+  "cc": "RS",
+  "tz": "Europe/Belgrade",
+  "lat": 44.7866,
+  "lon": 20.4489,
+  "holidays": {
+   "country": "RS",
+   "subdiv": null
+  },
+  "label": "BEG"
+ },
+ {
+  "id": "sarajevo-ba",
+  "name": "Sarajevo",
+  "country": "Bosnia & Herzegovina",
+  "cc": "BA",
+  "tz": "Europe/Sarajevo",
+  "lat": 43.8563,
+  "lon": 18.4131,
+  "holidays": {
+   "country": "BA",
+   "subdiv": null
+  },
+  "label": "SJJ"
+ },
+ {
+  "id": "podgorica-me",
+  "name": "Podgorica",
+  "country": "Montenegro",
+  "cc": "ME",
+  "tz": "Europe/Podgorica",
+  "lat": 42.4304,
+  "lon": 19.2594,
+  "holidays": {
+   "country": "ME",
+   "subdiv": null
+  },
+  "label": "TGD"
+ },
+ {
+  "id": "skopje-mk",
+  "name": "Skopje",
+  "country": "North Macedonia",
+  "cc": "MK",
+  "tz": "Europe/Skopje",
+  "lat": 41.9981,
+  "lon": 21.4254,
+  "holidays": {
+   "country": "MK",
+   "subdiv": null
+  },
+  "label": "SKP"
+ },
+ {
+  "id": "tirana-al",
+  "name": "Tirana",
+  "country": "Albania",
+  "cc": "AL",
+  "tz": "Europe/Tirane",
+  "lat": 41.3275,
+  "lon": 19.8187,
+  "holidays": {
+   "country": "AL",
+   "subdiv": null
+  },
+  "label": "TIA"
+ },
+ {
+  "id": "sofia-bg",
+  "name": "Sofia",
+  "country": "Bulgaria",
+  "cc": "BG",
+  "tz": "Europe/Sofia",
+  "lat": 42.6977,
+  "lon": 23.3219,
+  "holidays": {
+   "country": "BG",
+   "subdiv": null
+  },
+  "label": "SOF"
+ },
+ {
+  "id": "bucharest-ro",
+  "name": "Bucharest",
+  "country": "Romania",
+  "cc": "RO",
+  "tz": "Europe/Bucharest",
+  "lat": 44.4268,
+  "lon": 26.1025,
+  "holidays": {
+   "country": "RO",
+   "subdiv": null
+  },
+  "label": "BUH"
+ },
+ {
+  "id": "cluj-napoca-ro",
+  "name": "Cluj-Napoca",
+  "country": "Romania",
+  "cc": "RO",
+  "tz": "Europe/Bucharest",
+  "lat": 46.7712,
+  "lon": 23.6236,
+  "holidays": {
+   "country": "RO",
+   "subdiv": null
+  },
+  "label": "CLJ"
+ },
+ {
+  "id": "chisinau-md",
+  "name": "Chișinău",
+  "country": "Moldova",
+  "cc": "MD",
+  "tz": "Europe/Chisinau",
+  "lat": 47.0105,
+  "lon": 28.8638,
+  "holidays": {
+   "country": "MD",
+   "subdiv": null
+  },
+  "label": "KIV"
+ },
+ {
+  "id": "kyiv-ua",
+  "name": "Kyiv",
+  "country": "Ukraine",
+  "cc": "UA",
+  "tz": "Europe/Kyiv",
+  "lat": 50.4501,
+  "lon": 30.5234,
+  "holidays": {
+   "country": "UA",
+   "subdiv": null
+  },
+  "label": "KYV"
+ },
+ {
+  "id": "lviv-ua",
+  "name": "Lviv",
+  "country": "Ukraine",
+  "cc": "UA",
+  "tz": "Europe/Kyiv",
+  "lat": 49.8397,
+  "lon": 24.0297,
+  "holidays": {
+   "country": "UA",
+   "subdiv": null
+  },
+  "label": "LWO"
+ },
+ {
+  "id": "odesa-ua",
+  "name": "Odesa",
+  "country": "Ukraine",
+  "cc": "UA",
+  "tz": "Europe/Kyiv",
+  "lat": 46.4825,
+  "lon": 30.7233,
+  "holidays": {
+   "country": "UA",
+   "subdiv": null
+  },
+  "label": "ODS"
+ },
+ {
+  "id": "minsk-by",
+  "name": "Minsk",
+  "country": "Belarus",
+  "cc": "BY",
+  "tz": "Europe/Minsk",
+  "lat": 53.9006,
+  "lon": 27.559,
+  "holidays": {
+   "country": "BY",
+   "subdiv": null
+  },
+  "label": "MSQ"
+ },
+ {
+  "id": "moscow-ru",
+  "name": "Moscow",
+  "country": "Russia",
+  "cc": "RU",
+  "tz": "Europe/Moscow",
+  "lat": 55.7558,
+  "lon": 37.6173,
+  "holidays": {
+   "country": "RU",
+   "subdiv": null
+  },
+  "label": "MOW"
+ },
+ {
+  "id": "saint-petersburg-ru",
+  "name": "Saint Petersburg",
+  "country": "Russia",
+  "cc": "RU",
+  "tz": "Europe/Moscow",
+  "lat": 59.9311,
+  "lon": 30.3609,
+  "holidays": {
+   "country": "RU",
+   "subdiv": null
+  },
+  "label": "LED"
+ },
+ {
+  "id": "yekaterinburg-ru",
+  "name": "Yekaterinburg",
+  "country": "Russia",
+  "cc": "RU",
+  "tz": "Asia/Yekaterinburg",
+  "lat": 56.8389,
+  "lon": 60.6057,
+  "holidays": {
+   "country": "RU",
+   "subdiv": null
+  },
+  "label": "SVX"
+ },
+ {
+  "id": "novosibirsk-ru",
+  "name": "Novosibirsk",
+  "country": "Russia",
+  "cc": "RU",
+  "tz": "Asia/Novosibirsk",
+  "lat": 55.0084,
+  "lon": 82.9357,
+  "holidays": {
+   "country": "RU",
+   "subdiv": null
+  },
+  "label": "OVB"
+ },
+ {
+  "id": "vladivostok-ru",
+  "name": "Vladivostok",
+  "country": "Russia",
+  "cc": "RU",
+  "tz": "Asia/Vladivostok",
+  "lat": 43.1155,
+  "lon": 131.8855,
+  "holidays": {
+   "country": "RU",
+   "subdiv": null
+  },
+  "label": "VVO"
+ },
+ {
+  "id": "istanbul-tr",
+  "name": "Istanbul",
+  "country": "Türkiye",
+  "cc": "TR",
+  "tz": "Europe/Istanbul",
+  "lat": 41.0082,
+  "lon": 28.9784,
+  "holidays": {
+   "country": "TR",
+   "subdiv": null
+  },
+  "label": "IST"
+ },
+ {
+  "id": "ankara-tr",
+  "name": "Ankara",
+  "country": "Türkiye",
+  "cc": "TR",
+  "tz": "Europe/Istanbul",
+  "lat": 39.9334,
+  "lon": 32.8597,
+  "holidays": {
+   "country": "TR",
+   "subdiv": null
+  },
+  "label": "ANK"
+ },
+ {
+  "id": "izmir-tr",
+  "name": "Izmir",
+  "country": "Türkiye",
+  "cc": "TR",
+  "tz": "Europe/Istanbul",
+  "lat": 38.4237,
+  "lon": 27.1428,
+  "holidays": {
+   "country": "TR",
+   "subdiv": null
+  },
+  "label": "IZM"
+ },
+ {
+  "id": "nicosia-cy",
+  "name": "Nicosia",
+  "country": "Cyprus",
+  "cc": "CY",
+  "tz": "Asia/Nicosia",
+  "lat": 35.1856,
+  "lon": 33.3823,
+  "holidays": {
+   "country": "CY",
+   "subdiv": null
+  },
+  "label": "NIC"
+ },
+ {
+  "id": "valletta-mt",
+  "name": "Valletta",
+  "country": "Malta",
+  "cc": "MT",
+  "tz": "Europe/Malta",
+  "lat": 35.8989,
+  "lon": 14.5146,
+  "holidays": {
+   "country": "MT",
+   "subdiv": null
+  },
+  "label": "MLA"
+ },
+ {
+  "id": "monaco-mc",
+  "name": "Monaco",
+  "country": "Monaco",
+  "cc": "MC",
+  "tz": "Europe/Monaco",
+  "lat": 43.7384,
+  "lon": 7.4246,
+  "holidays": {
+   "country": "MC",
+   "subdiv": null
+  },
+  "label": "MCM"
+ },
+ {
+  "id": "andorra-la-vella-ad",
+  "name": "Andorra la Vella",
+  "country": "Andorra",
+  "cc": "AD",
+  "tz": "Europe/Andorra",
+  "lat": 42.5063,
+  "lon": 1.5218,
+  "holidays": {
+   "country": "AD",
+   "subdiv": null
+  },
+  "label": "ALV"
+ },
+ {
+  "id": "vaduz-li",
+  "name": "Vaduz",
+  "country": "Liechtenstein",
+  "cc": "LI",
+  "tz": "Europe/Vaduz",
+  "lat": 47.141,
+  "lon": 9.5209,
+  "holidays": {
+   "country": "LI",
+   "subdiv": null
+  },
+  "label": "VDZ"
+ },
+ {
+  "id": "san-marino-sm",
+  "name": "San Marino",
+  "country": "San Marino",
+  "cc": "SM",
+  "tz": "Europe/San_Marino",
+  "lat": 43.9424,
+  "lon": 12.4578,
+  "holidays": {
+   "country": "SM",
+   "subdiv": null
+  },
+  "label": "SMR"
+ },
+ {
+  "id": "vatican-city-va",
+  "name": "Vatican City",
+  "country": "Vatican City",
+  "cc": "VA",
+  "tz": "Europe/Vatican",
+  "lat": 41.9029,
+  "lon": 12.4534,
+  "holidays": {
+   "country": "VA",
+   "subdiv": null
+  },
+  "label": "VAT"
+ },
+ {
+  "id": "tbilisi-ge",
+  "name": "Tbilisi",
+  "country": "Georgia",
+  "cc": "GE",
+  "tz": "Asia/Tbilisi",
+  "lat": 41.7151,
+  "lon": 44.8271,
+  "holidays": {
+   "country": "GE",
+   "subdiv": null
+  },
+  "label": "TBS"
+ },
+ {
+  "id": "yerevan-am",
+  "name": "Yerevan",
+  "country": "Armenia",
+  "cc": "AM",
+  "tz": "Asia/Yerevan",
+  "lat": 40.1792,
+  "lon": 44.4991,
+  "holidays": {
+   "country": "AM",
+   "subdiv": null
+  },
+  "label": "EVN"
+ },
+ {
+  "id": "baku-az",
+  "name": "Baku",
+  "country": "Azerbaijan",
+  "cc": "AZ",
+  "tz": "Asia/Baku",
+  "lat": 40.4093,
+  "lon": 49.8671,
+  "holidays": {
+   "country": "AZ",
+   "subdiv": null
+  },
+  "label": "BAK"
+ },
+ {
+  "id": "dubai-ae",
+  "name": "Dubai",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "tz": "Asia/Dubai",
+  "lat": 25.2048,
+  "lon": 55.2708,
+  "holidays": {
+   "country": "AE",
+   "subdiv": null
+  },
+  "label": "DXB"
+ },
+ {
+  "id": "abu-dhabi-ae",
+  "name": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "cc": "AE",
+  "tz": "Asia/Dubai",
+  "lat": 24.4539,
+  "lon": 54.3773,
+  "holidays": {
+   "country": "AE",
+   "subdiv": null
+  },
+  "label": "AUH"
+ },
+ {
+  "id": "doha-qa",
+  "name": "Doha",
+  "country": "Qatar",
+  "cc": "QA",
+  "tz": "Asia/Qatar",
+  "lat": 25.2854,
+  "lon": 51.531,
+  "holidays": {
+   "country": "QA",
+   "subdiv": null
+  },
+  "label": "DOH"
+ },
+ {
+  "id": "riyadh-sa",
+  "name": "Riyadh",
+  "country": "Saudi Arabia",
+  "cc": "SA",
+  "tz": "Asia/Riyadh",
+  "lat": 24.7136,
+  "lon": 46.6753,
+  "holidays": {
+   "country": "SA",
+   "subdiv": null
+  },
+  "label": "RUH"
+ },
+ {
+  "id": "jeddah-sa",
+  "name": "Jeddah",
+  "country": "Saudi Arabia",
+  "cc": "SA",
+  "tz": "Asia/Riyadh",
+  "lat": 21.4858,
+  "lon": 39.1925,
+  "holidays": {
+   "country": "SA",
+   "subdiv": null
+  },
+  "label": "JED"
+ },
+ {
+  "id": "kuwait-city-kw",
+  "name": "Kuwait City",
+  "country": "Kuwait",
+  "cc": "KW",
+  "tz": "Asia/Kuwait",
+  "lat": 29.3759,
+  "lon": 47.9774,
+  "holidays": {
+   "country": "KW",
+   "subdiv": null
+  },
+  "label": "KWI"
+ },
+ {
+  "id": "manama-bh",
+  "name": "Manama",
+  "country": "Bahrain",
+  "cc": "BH",
+  "tz": "Asia/Bahrain",
+  "lat": 26.2285,
+  "lon": 50.586,
+  "holidays": {
+   "country": "BH",
+   "subdiv": null
+  },
+  "label": "BAH"
+ },
+ {
+  "id": "muscat-om",
+  "name": "Muscat",
+  "country": "Oman",
+  "cc": "OM",
+  "tz": "Asia/Muscat",
+  "lat": 23.588,
+  "lon": 58.3829,
+  "holidays": {
+   "country": "OM",
+   "subdiv": null
+  },
+  "label": "MCT"
+ },
+ {
+  "id": "tel-aviv-il",
+  "name": "Tel Aviv",
+  "country": "Israel",
+  "cc": "IL",
+  "tz": "Asia/Jerusalem",
+  "lat": 32.0853,
+  "lon": 34.7818,
+  "holidays": {
+   "country": "IL",
+   "subdiv": null
+  },
+  "label": "TLV"
+ },
+ {
+  "id": "jerusalem-il",
+  "name": "Jerusalem",
+  "country": "Israel",
+  "cc": "IL",
+  "tz": "Asia/Jerusalem",
+  "lat": 31.7683,
+  "lon": 35.2137,
+  "holidays": {
+   "country": "IL",
+   "subdiv": null
+  },
+  "label": "JRS"
+ },
+ {
+  "id": "amman-jo",
+  "name": "Amman",
+  "country": "Jordan",
+  "cc": "JO",
+  "tz": "Asia/Amman",
+  "lat": 31.9539,
+  "lon": 35.9106,
+  "holidays": {
+   "country": "JO",
+   "subdiv": null
+  },
+  "label": "AMM"
+ },
+ {
+  "id": "beirut-lb",
+  "name": "Beirut",
+  "country": "Lebanon",
+  "cc": "LB",
+  "tz": "Asia/Beirut",
+  "lat": 33.8938,
+  "lon": 35.5018,
+  "holidays": {
+   "country": "LB",
+   "subdiv": null
+  },
+  "label": "BEY"
+ },
+ {
+  "id": "damascus-sy",
+  "name": "Damascus",
+  "country": "Syria",
+  "cc": "SY",
+  "tz": "Asia/Damascus",
+  "lat": 33.5138,
+  "lon": 36.2765,
+  "holidays": {
+   "country": "SY",
+   "subdiv": null
+  },
+  "label": "DAM"
+ },
+ {
+  "id": "baghdad-iq",
+  "name": "Baghdad",
+  "country": "Iraq",
+  "cc": "IQ",
+  "tz": "Asia/Baghdad",
+  "lat": 33.3152,
+  "lon": 44.3661,
+  "holidays": {
+   "country": "IQ",
+   "subdiv": null
+  },
+  "label": "BGW"
+ },
+ {
+  "id": "tehran-ir",
+  "name": "Tehran",
+  "country": "Iran",
+  "cc": "IR",
+  "tz": "Asia/Tehran",
+  "lat": 35.6892,
+  "lon": 51.389,
+  "holidays": {
+   "country": "IR",
+   "subdiv": null
+  },
+  "label": "THR"
+ },
+ {
+  "id": "sanaa-ye",
+  "name": "Sanaa",
+  "country": "Yemen",
+  "cc": "YE",
+  "tz": "Asia/Aden",
+  "lat": 15.3694,
+  "lon": 44.191,
+  "holidays": {
+   "country": "YE",
+   "subdiv": null
+  },
+  "label": "SAH"
+ },
+ {
+  "id": "kabul-af",
+  "name": "Kabul",
+  "country": "Afghanistan",
+  "cc": "AF",
+  "tz": "Asia/Kabul",
+  "lat": 34.5553,
+  "lon": 69.2075,
+  "holidays": {
+   "country": "AF",
+   "subdiv": null
+  },
+  "label": "KBL"
+ },
+ {
+  "id": "cairo-eg",
+  "name": "Cairo",
+  "country": "Egypt",
+  "cc": "EG",
+  "tz": "Africa/Cairo",
+  "lat": 30.0444,
+  "lon": 31.2357,
+  "holidays": {
+   "country": "EG",
+   "subdiv": null
+  },
+  "label": "CAI"
+ },
+ {
+  "id": "alexandria-eg",
+  "name": "Alexandria",
+  "country": "Egypt",
+  "cc": "EG",
+  "tz": "Africa/Cairo",
+  "lat": 31.2001,
+  "lon": 29.9187,
+  "holidays": {
+   "country": "EG",
+   "subdiv": null
+  },
+  "label": "ALY"
+ },
+ {
+  "id": "casablanca-ma",
+  "name": "Casablanca",
+  "country": "Morocco",
+  "cc": "MA",
+  "tz": "Africa/Casablanca",
+  "lat": 33.5731,
+  "lon": -7.5898,
+  "holidays": {
+   "country": "MA",
+   "subdiv": null
+  },
+  "label": "CAS"
+ },
+ {
+  "id": "rabat-ma",
+  "name": "Rabat",
+  "country": "Morocco",
+  "cc": "MA",
+  "tz": "Africa/Casablanca",
+  "lat": 34.0209,
+  "lon": -6.8416,
+  "holidays": {
+   "country": "MA",
+   "subdiv": null
+  },
+  "label": "RBA"
+ },
+ {
+  "id": "marrakesh-ma",
+  "name": "Marrakesh",
+  "country": "Morocco",
+  "cc": "MA",
+  "tz": "Africa/Casablanca",
+  "lat": 31.6295,
+  "lon": -7.9811,
+  "holidays": {
+   "country": "MA",
+   "subdiv": null
+  },
+  "label": "RAK"
+ },
+ {
+  "id": "algiers-dz",
+  "name": "Algiers",
+  "country": "Algeria",
+  "cc": "DZ",
+  "tz": "Africa/Algiers",
+  "lat": 36.7538,
+  "lon": 3.0588,
+  "holidays": {
+   "country": "DZ",
+   "subdiv": null
+  },
+  "label": "ALG"
+ },
+ {
+  "id": "tunis-tn",
+  "name": "Tunis",
+  "country": "Tunisia",
+  "cc": "TN",
+  "tz": "Africa/Tunis",
+  "lat": 36.8065,
+  "lon": 10.1815,
+  "holidays": {
+   "country": "TN",
+   "subdiv": null
+  },
+  "label": "TUN"
+ },
+ {
+  "id": "tripoli-ly",
+  "name": "Tripoli",
+  "country": "Libya",
+  "cc": "LY",
+  "tz": "Africa/Tripoli",
+  "lat": 32.8872,
+  "lon": 13.1913,
+  "holidays": {
+   "country": "LY",
+   "subdiv": null
+  },
+  "label": "TIP"
+ },
+ {
+  "id": "khartoum-sd",
+  "name": "Khartoum",
+  "country": "Sudan",
+  "cc": "SD",
+  "tz": "Africa/Khartoum",
+  "lat": 15.5007,
+  "lon": 32.5599,
+  "holidays": {
+   "country": "SD",
+   "subdiv": null
+  },
+  "label": "KRT"
+ },
+ {
+  "id": "addis-ababa-et",
+  "name": "Addis Ababa",
+  "country": "Ethiopia",
+  "cc": "ET",
+  "tz": "Africa/Addis_Ababa",
+  "lat": 9.03,
+  "lon": 38.74,
+  "holidays": {
+   "country": "ET",
+   "subdiv": null
+  },
+  "label": "ADD"
+ },
+ {
+  "id": "nairobi-ke",
+  "name": "Nairobi",
+  "country": "Kenya",
+  "cc": "KE",
+  "tz": "Africa/Nairobi",
+  "lat": -1.2921,
+  "lon": 36.8219,
+  "holidays": {
+   "country": "KE",
+   "subdiv": null
+  },
+  "label": "NBO"
+ },
+ {
+  "id": "mombasa-ke",
+  "name": "Mombasa",
+  "country": "Kenya",
+  "cc": "KE",
+  "tz": "Africa/Nairobi",
+  "lat": -4.0435,
+  "lon": 39.6682,
+  "holidays": {
+   "country": "KE",
+   "subdiv": null
+  },
+  "label": "MBA"
+ },
+ {
+  "id": "kampala-ug",
+  "name": "Kampala",
+  "country": "Uganda",
+  "cc": "UG",
+  "tz": "Africa/Kampala",
+  "lat": 0.3476,
+  "lon": 32.5825,
+  "holidays": {
+   "country": "UG",
+   "subdiv": null
+  },
+  "label": "KLA"
+ },
+ {
+  "id": "kigali-rw",
+  "name": "Kigali",
+  "country": "Rwanda",
+  "cc": "RW",
+  "tz": "Africa/Kigali",
+  "lat": -1.9441,
+  "lon": 30.0619,
+  "holidays": {
+   "country": "RW",
+   "subdiv": null
+  },
+  "label": "KGL"
+ },
+ {
+  "id": "dar-es-salaam-tz",
+  "name": "Dar es Salaam",
+  "country": "Tanzania",
+  "cc": "TZ",
+  "tz": "Africa/Dar_es_Salaam",
+  "lat": -6.7924,
+  "lon": 39.2083,
+  "holidays": {
+   "country": "TZ",
+   "subdiv": null
+  },
+  "label": "DAR"
+ },
+ {
+  "id": "dodoma-tz",
+  "name": "Dodoma",
+  "country": "Tanzania",
+  "cc": "TZ",
+  "tz": "Africa/Dar_es_Salaam",
+  "lat": -6.163,
+  "lon": 35.7516,
+  "holidays": {
+   "country": "TZ",
+   "subdiv": null
+  },
+  "label": "DOD"
+ },
+ {
+  "id": "lagos-ng",
+  "name": "Lagos",
+  "country": "Nigeria",
+  "cc": "NG",
+  "tz": "Africa/Lagos",
+  "lat": 6.5244,
+  "lon": 3.3792,
+  "holidays": {
+   "country": "NG",
+   "subdiv": null
+  },
+  "label": "LOS"
+ },
+ {
+  "id": "abuja-ng",
+  "name": "Abuja",
+  "country": "Nigeria",
+  "cc": "NG",
+  "tz": "Africa/Lagos",
+  "lat": 9.0765,
+  "lon": 7.3986,
+  "holidays": {
+   "country": "NG",
+   "subdiv": null
+  },
+  "label": "ABV"
+ },
+ {
+  "id": "accra-gh",
+  "name": "Accra",
+  "country": "Ghana",
+  "cc": "GH",
+  "tz": "Africa/Accra",
+  "lat": 5.6037,
+  "lon": -0.187,
+  "holidays": {
+   "country": "GH",
+   "subdiv": null
+  },
+  "label": "ACC"
+ },
+ {
+  "id": "abidjan-ci",
+  "name": "Abidjan",
+  "country": "Côte d'Ivoire",
+  "cc": "CI",
+  "tz": "Africa/Abidjan",
+  "lat": 5.36,
+  "lon": -4.0083,
+  "holidays": {
+   "country": "CI",
+   "subdiv": null
+  },
+  "label": "ABJ"
+ },
+ {
+  "id": "dakar-sn",
+  "name": "Dakar",
+  "country": "Senegal",
+  "cc": "SN",
+  "tz": "Africa/Dakar",
+  "lat": 14.7167,
+  "lon": -17.4677,
+  "holidays": {
+   "country": "SN",
+   "subdiv": null
+  },
+  "label": "DKR"
+ },
+ {
+  "id": "bamako-ml",
+  "name": "Bamako",
+  "country": "Mali",
+  "cc": "ML",
+  "tz": "Africa/Bamako",
+  "lat": 12.6392,
+  "lon": -8.0029,
+  "holidays": {
+   "country": "ML",
+   "subdiv": null
+  },
+  "label": "BKO"
+ },
+ {
+  "id": "ouagadougou-bf",
+  "name": "Ouagadougou",
+  "country": "Burkina Faso",
+  "cc": "BF",
+  "tz": "Africa/Ouagadougou",
+  "lat": 12.3714,
+  "lon": -1.5197,
+  "holidays": {
+   "country": "BF",
+   "subdiv": null
+  },
+  "label": "OUA"
+ },
+ {
+  "id": "niamey-ne",
+  "name": "Niamey",
+  "country": "Niger",
+  "cc": "NE",
+  "tz": "Africa/Niamey",
+  "lat": 13.5116,
+  "lon": 2.1254,
+  "holidays": {
+   "country": "NE",
+   "subdiv": null
+  },
+  "label": "NIM"
+ },
+ {
+  "id": "n-djamena-td",
+  "name": "N'Djamena",
+  "country": "Chad",
+  "cc": "TD",
+  "tz": "Africa/Ndjamena",
+  "lat": 12.1348,
+  "lon": 15.0557,
+  "holidays": {
+   "country": "TD",
+   "subdiv": null
+  },
+  "label": "NDJ"
+ },
+ {
+  "id": "yaounde-cm",
+  "name": "Yaoundé",
+  "country": "Cameroon",
+  "cc": "CM",
+  "tz": "Africa/Douala",
+  "lat": 3.848,
+  "lon": 11.5021,
+  "holidays": {
+   "country": "CM",
+   "subdiv": null
+  },
+  "label": "YAO"
+ },
+ {
+  "id": "douala-cm",
+  "name": "Douala",
+  "country": "Cameroon",
+  "cc": "CM",
+  "tz": "Africa/Douala",
+  "lat": 4.0511,
+  "lon": 9.7679,
+  "holidays": {
+   "country": "CM",
+   "subdiv": null
+  },
+  "label": "DLA"
+ },
+ {
+  "id": "kinshasa-cd",
+  "name": "Kinshasa",
+  "country": "DR Congo",
+  "cc": "CD",
+  "tz": "Africa/Kinshasa",
+  "lat": -4.4419,
+  "lon": 15.2663,
+  "holidays": {
+   "country": "CD",
+   "subdiv": null
+  },
+  "label": "FIH"
+ },
+ {
+  "id": "brazzaville-cg",
+  "name": "Brazzaville",
+  "country": "Congo",
+  "cc": "CG",
+  "tz": "Africa/Brazzaville",
+  "lat": -4.2634,
+  "lon": 15.2429,
+  "holidays": {
+   "country": "CG",
+   "subdiv": null
+  },
+  "label": "BZV"
+ },
+ {
+  "id": "libreville-ga",
+  "name": "Libreville",
+  "country": "Gabon",
+  "cc": "GA",
+  "tz": "Africa/Libreville",
+  "lat": 0.4162,
+  "lon": 9.4673,
+  "holidays": {
+   "country": "GA",
+   "subdiv": null
+  },
+  "label": "LBV"
+ },
+ {
+  "id": "luanda-ao",
+  "name": "Luanda",
+  "country": "Angola",
+  "cc": "AO",
+  "tz": "Africa/Luanda",
+  "lat": -8.839,
+  "lon": 13.2894,
+  "holidays": {
+   "country": "AO",
+   "subdiv": null
+  },
+  "label": "LAD"
+ },
+ {
+  "id": "lusaka-zm",
+  "name": "Lusaka",
+  "country": "Zambia",
+  "cc": "ZM",
+  "tz": "Africa/Lusaka",
+  "lat": -15.3875,
+  "lon": 28.3228,
+  "holidays": {
+   "country": "ZM",
+   "subdiv": null
+  },
+  "label": "LUN"
+ },
+ {
+  "id": "harare-zw",
+  "name": "Harare",
+  "country": "Zimbabwe",
+  "cc": "ZW",
+  "tz": "Africa/Harare",
+  "lat": -17.8252,
+  "lon": 31.0335,
+  "holidays": {
+   "country": "ZW",
+   "subdiv": null
+  },
+  "label": "HRE"
+ },
+ {
+  "id": "lilongwe-mw",
+  "name": "Lilongwe",
+  "country": "Malawi",
+  "cc": "MW",
+  "tz": "Africa/Blantyre",
+  "lat": -13.9626,
+  "lon": 33.7741,
+  "holidays": {
+   "country": "MW",
+   "subdiv": null
+  },
+  "label": "LLW"
+ },
+ {
+  "id": "maputo-mz",
+  "name": "Maputo",
+  "country": "Mozambique",
+  "cc": "MZ",
+  "tz": "Africa/Maputo",
+  "lat": -25.9692,
+  "lon": 32.5732,
+  "holidays": {
+   "country": "MZ",
+   "subdiv": null
+  },
+  "label": "MPM"
+ },
+ {
+  "id": "windhoek-na",
+  "name": "Windhoek",
+  "country": "Namibia",
+  "cc": "NA",
+  "tz": "Africa/Windhoek",
+  "lat": -22.5609,
+  "lon": 17.0658,
+  "holidays": {
+   "country": "NA",
+   "subdiv": null
+  },
+  "label": "WDH"
+ },
+ {
+  "id": "gaborone-bw",
+  "name": "Gaborone",
+  "country": "Botswana",
+  "cc": "BW",
+  "tz": "Africa/Gaborone",
+  "lat": -24.6282,
+  "lon": 25.9231,
+  "holidays": {
+   "country": "BW",
+   "subdiv": null
+  },
+  "label": "GBE"
+ },
+ {
+  "id": "johannesburg-za",
+  "name": "Johannesburg",
+  "country": "South Africa",
+  "cc": "ZA",
+  "tz": "Africa/Johannesburg",
+  "lat": -26.2041,
+  "lon": 28.0473,
+  "holidays": {
+   "country": "ZA",
+   "subdiv": null
+  },
+  "label": "JNB"
+ },
+ {
+  "id": "pretoria-za",
+  "name": "Pretoria",
+  "country": "South Africa",
+  "cc": "ZA",
+  "tz": "Africa/Johannesburg",
+  "lat": -25.7479,
+  "lon": 28.2293,
+  "holidays": {
+   "country": "ZA",
+   "subdiv": null
+  },
+  "label": "PRY"
+ },
+ {
+  "id": "cape-town-za",
+  "name": "Cape Town",
+  "country": "South Africa",
+  "cc": "ZA",
+  "tz": "Africa/Johannesburg",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "holidays": {
+   "country": "ZA",
+   "subdiv": null
+  },
+  "label": "CPT"
+ },
+ {
+  "id": "durban-za",
+  "name": "Durban",
+  "country": "South Africa",
+  "cc": "ZA",
+  "tz": "Africa/Johannesburg",
+  "lat": -29.8587,
+  "lon": 31.0218,
+  "holidays": {
+   "country": "ZA",
+   "subdiv": null
+  },
+  "label": "DUR"
+ },
+ {
+  "id": "antananarivo-mg",
+  "name": "Antananarivo",
+  "country": "Madagascar",
+  "cc": "MG",
+  "tz": "Indian/Antananarivo",
+  "lat": -18.8792,
+  "lon": 47.5079,
+  "holidays": {
+   "country": "MG",
+   "subdiv": null
+  },
+  "label": "TNR"
+ },
+ {
+  "id": "port-louis-mu",
+  "name": "Port Louis",
+  "country": "Mauritius",
+  "cc": "MU",
+  "tz": "Indian/Mauritius",
+  "lat": -20.1609,
+  "lon": 57.5012,
+  "holidays": {
+   "country": "MU",
+   "subdiv": null
+  },
+  "label": "MRU"
+ },
+ {
+  "id": "mogadishu-so",
+  "name": "Mogadishu",
+  "country": "Somalia",
+  "cc": "SO",
+  "tz": "Africa/Mogadishu",
+  "lat": 2.0469,
+  "lon": 45.3182,
+  "holidays": {
+   "country": "SO",
+   "subdiv": null
+  },
+  "label": "MGQ"
+ },
+ {
+  "id": "djibouti-dj",
+  "name": "Djibouti",
+  "country": "Djibouti",
+  "cc": "DJ",
+  "tz": "Africa/Djibouti",
+  "lat": 11.5721,
+  "lon": 43.1456,
+  "holidays": {
+   "country": "DJ",
+   "subdiv": null
+  },
+  "label": "JIB"
+ },
+ {
+  "id": "asmara-er",
+  "name": "Asmara",
+  "country": "Eritrea",
+  "cc": "ER",
+  "tz": "Africa/Asmara",
+  "lat": 15.3229,
+  "lon": 38.9251,
+  "holidays": {
+   "country": "ER",
+   "subdiv": null
+  },
+  "label": "ASM"
+ },
+ {
+  "id": "juba-ss",
+  "name": "Juba",
+  "country": "South Sudan",
+  "cc": "SS",
+  "tz": "Africa/Juba",
+  "lat": 4.8594,
+  "lon": 31.5713,
+  "holidays": {
+   "country": "SS",
+   "subdiv": null
+  },
+  "label": "JUB"
+ },
+ {
+  "id": "freetown-sl",
+  "name": "Freetown",
+  "country": "Sierra Leone",
+  "cc": "SL",
+  "tz": "Africa/Freetown",
+  "lat": 8.4657,
+  "lon": -13.2317,
+  "holidays": {
+   "country": "SL",
+   "subdiv": null
+  },
+  "label": "FNA"
+ },
+ {
+  "id": "monrovia-lr",
+  "name": "Monrovia",
+  "country": "Liberia",
+  "cc": "LR",
+  "tz": "Africa/Monrovia",
+  "lat": 6.3156,
+  "lon": -10.8074,
+  "holidays": {
+   "country": "LR",
+   "subdiv": null
+  },
+  "label": "MLW"
+ },
+ {
+  "id": "conakry-gn",
+  "name": "Conakry",
+  "country": "Guinea",
+  "cc": "GN",
+  "tz": "Africa/Conakry",
+  "lat": 9.6412,
+  "lon": -13.5784,
+  "holidays": {
+   "country": "GN",
+   "subdiv": null
+  },
+  "label": "CKY"
+ },
+ {
+  "id": "lome-tg",
+  "name": "Lomé",
+  "country": "Togo",
+  "cc": "TG",
+  "tz": "Africa/Lome",
+  "lat": 6.1725,
+  "lon": 1.2314,
+  "holidays": {
+   "country": "TG",
+   "subdiv": null
+  },
+  "label": "LFW"
+ },
+ {
+  "id": "cotonou-bj",
+  "name": "Cotonou",
+  "country": "Benin",
+  "cc": "BJ",
+  "tz": "Africa/Porto-Novo",
+  "lat": 6.3654,
+  "lon": 2.4183,
+  "holidays": {
+   "country": "BJ",
+   "subdiv": null
+  },
+  "label": "COO"
+ },
+ {
+  "id": "nouakchott-mr",
+  "name": "Nouakchott",
+  "country": "Mauritania",
+  "cc": "MR",
+  "tz": "Africa/Nouakchott",
+  "lat": 18.0735,
+  "lon": -15.9582,
+  "holidays": {
+   "country": "MR",
+   "subdiv": null
+  },
+  "label": "NKC"
+ },
+ {
+  "id": "tokyo-jp",
+  "name": "Tokyo",
+  "country": "Japan",
+  "cc": "JP",
+  "tz": "Asia/Tokyo",
+  "lat": 35.6762,
+  "lon": 139.6503,
+  "holidays": {
+   "country": "JP",
+   "subdiv": null
+  },
+  "label": "TYO"
+ },
+ {
+  "id": "osaka-jp",
+  "name": "Osaka",
+  "country": "Japan",
+  "cc": "JP",
+  "tz": "Asia/Tokyo",
+  "lat": 34.6937,
+  "lon": 135.5023,
+  "holidays": {
+   "country": "JP",
+   "subdiv": null
+  },
+  "label": "OSA"
+ },
+ {
+  "id": "kyoto-jp",
+  "name": "Kyoto",
+  "country": "Japan",
+  "cc": "JP",
+  "tz": "Asia/Tokyo",
+  "lat": 35.0116,
+  "lon": 135.7681,
+  "holidays": {
+   "country": "JP",
+   "subdiv": null
+  },
+  "label": "KYO"
+ },
+ {
+  "id": "seoul-kr",
+  "name": "Seoul",
+  "country": "South Korea",
+  "cc": "KR",
+  "tz": "Asia/Seoul",
+  "lat": 37.5665,
+  "lon": 126.978,
+  "holidays": {
+   "country": "KR",
+   "subdiv": null
+  },
+  "label": "SEL"
+ },
+ {
+  "id": "busan-kr",
+  "name": "Busan",
+  "country": "South Korea",
+  "cc": "KR",
+  "tz": "Asia/Seoul",
+  "lat": 35.1796,
+  "lon": 129.0756,
+  "holidays": {
+   "country": "KR",
+   "subdiv": null
+  },
+  "label": "PUS"
+ },
+ {
+  "id": "pyongyang-kp",
+  "name": "Pyongyang",
+  "country": "North Korea",
+  "cc": "KP",
+  "tz": "Asia/Pyongyang",
+  "lat": 39.0392,
+  "lon": 125.7625,
+  "holidays": {
+   "country": "KP",
+   "subdiv": null
+  },
+  "label": "FNJ"
+ },
+ {
+  "id": "beijing-cn",
+  "name": "Beijing",
+  "country": "China",
+  "cc": "CN",
+  "tz": "Asia/Shanghai",
+  "lat": 39.9042,
+  "lon": 116.4074,
+  "holidays": {
+   "country": "CN",
+   "subdiv": null
+  },
+  "label": "BJS"
+ },
+ {
+  "id": "shanghai-cn",
+  "name": "Shanghai",
+  "country": "China",
+  "cc": "CN",
+  "tz": "Asia/Shanghai",
+  "lat": 31.2304,
+  "lon": 121.4737,
+  "holidays": {
+   "country": "CN",
+   "subdiv": null
+  },
+  "label": "SHA"
+ },
+ {
+  "id": "shenzhen-cn",
+  "name": "Shenzhen",
+  "country": "China",
+  "cc": "CN",
+  "tz": "Asia/Shanghai",
+  "lat": 22.5431,
+  "lon": 114.0579,
+  "holidays": {
+   "country": "CN",
+   "subdiv": null
+  },
+  "label": "SZX"
+ },
+ {
+  "id": "guangzhou-cn",
+  "name": "Guangzhou",
+  "country": "China",
+  "cc": "CN",
+  "tz": "Asia/Shanghai",
+  "lat": 23.1291,
+  "lon": 113.2644,
+  "holidays": {
+   "country": "CN",
+   "subdiv": null
+  },
+  "label": "CAN"
+ },
+ {
+  "id": "chengdu-cn",
+  "name": "Chengdu",
+  "country": "China",
+  "cc": "CN",
+  "tz": "Asia/Shanghai",
+  "lat": 30.5728,
+  "lon": 104.0668,
+  "holidays": {
+   "country": "CN",
+   "subdiv": null
+  },
+  "label": "CTU"
+ },
+ {
+  "id": "hong-kong-hk",
+  "name": "Hong Kong",
+  "country": "Hong Kong",
+  "cc": "HK",
+  "tz": "Asia/Hong_Kong",
+  "lat": 22.3193,
+  "lon": 114.1694,
+  "holidays": {
+   "country": "HK",
+   "subdiv": null
+  },
+  "label": "HKG"
+ },
+ {
+  "id": "macau-mo",
+  "name": "Macau",
+  "country": "Macau",
+  "cc": "MO",
+  "tz": "Asia/Macau",
+  "lat": 22.1987,
+  "lon": 113.5439,
+  "holidays": {
+   "country": "MO",
+   "subdiv": null
+  },
+  "label": "MFM"
+ },
+ {
+  "id": "taipei-tw",
+  "name": "Taipei",
+  "country": "Taiwan",
+  "cc": "TW",
+  "tz": "Asia/Taipei",
+  "lat": 25.033,
+  "lon": 121.5654,
+  "holidays": {
+   "country": "TW",
+   "subdiv": null
+  },
+  "label": "TPE"
+ },
+ {
+  "id": "ulaanbaatar-mn",
+  "name": "Ulaanbaatar",
+  "country": "Mongolia",
+  "cc": "MN",
+  "tz": "Asia/Ulaanbaatar",
+  "lat": 47.8864,
+  "lon": 106.9057,
+  "holidays": {
+   "country": "MN",
+   "subdiv": null
+  },
+  "label": "ULN"
+ },
+ {
+  "id": "singapore-sg",
+  "name": "Singapore",
+  "country": "Singapore",
+  "cc": "SG",
+  "tz": "Asia/Singapore",
+  "lat": 1.3521,
+  "lon": 103.8198,
+  "holidays": {
+   "country": "SG",
+   "subdiv": null
+  },
+  "label": "SIN"
+ },
+ {
+  "id": "kuala-lumpur-my",
+  "name": "Kuala Lumpur",
+  "country": "Malaysia",
+  "cc": "MY",
+  "tz": "Asia/Kuala_Lumpur",
+  "lat": 3.139,
+  "lon": 101.6869,
+  "holidays": {
+   "country": "MY",
+   "subdiv": "14"
+  },
+  "label": "KUL"
+ },
+ {
+  "id": "jakarta-id",
+  "name": "Jakarta",
+  "country": "Indonesia",
+  "cc": "ID",
+  "tz": "Asia/Jakarta",
+  "lat": -6.2088,
+  "lon": 106.8456,
+  "holidays": {
+   "country": "ID",
+   "subdiv": null
+  },
+  "label": "JKT"
+ },
+ {
+  "id": "denpasar-id",
+  "name": "Denpasar (Bali)",
+  "country": "Indonesia",
+  "cc": "ID",
+  "tz": "Asia/Makassar",
+  "lat": -8.6705,
+  "lon": 115.2126,
+  "holidays": {
+   "country": "ID",
+   "subdiv": null
+  },
+  "label": "DPS"
+ },
+ {
+  "id": "bangkok-th",
+  "name": "Bangkok",
+  "country": "Thailand",
+  "cc": "TH",
+  "tz": "Asia/Bangkok",
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "holidays": {
+   "country": "TH",
+   "subdiv": null
+  },
+  "label": "BKK"
+ },
+ {
+  "id": "chiang-mai-th",
+  "name": "Chiang Mai",
+  "country": "Thailand",
+  "cc": "TH",
+  "tz": "Asia/Bangkok",
+  "lat": 18.7883,
+  "lon": 98.9853,
+  "holidays": {
+   "country": "TH",
+   "subdiv": null
+  },
+  "label": "CNX"
+ },
+ {
+  "id": "hanoi-vn",
+  "name": "Hanoi",
+  "country": "Vietnam",
+  "cc": "VN",
+  "tz": "Asia/Ho_Chi_Minh",
+  "lat": 21.0278,
+  "lon": 105.8342,
+  "holidays": {
+   "country": "VN",
+   "subdiv": null
+  },
+  "label": "HAN"
+ },
+ {
+  "id": "ho-chi-minh-city-vn",
+  "name": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "cc": "VN",
+  "tz": "Asia/Ho_Chi_Minh",
+  "lat": 10.8231,
+  "lon": 106.6297,
+  "holidays": {
+   "country": "VN",
+   "subdiv": null
+  },
+  "label": "SGN"
+ },
+ {
+  "id": "phnom-penh-kh",
+  "name": "Phnom Penh",
+  "country": "Cambodia",
+  "cc": "KH",
+  "tz": "Asia/Phnom_Penh",
+  "lat": 11.5564,
+  "lon": 104.9282,
+  "holidays": {
+   "country": "KH",
+   "subdiv": null
+  },
+  "label": "PNH"
+ },
+ {
+  "id": "vientiane-la",
+  "name": "Vientiane",
+  "country": "Laos",
+  "cc": "LA",
+  "tz": "Asia/Vientiane",
+  "lat": 17.9757,
+  "lon": 102.6331,
+  "holidays": {
+   "country": "LA",
+   "subdiv": null
+  },
+  "label": "VTE"
+ },
+ {
+  "id": "yangon-mm",
+  "name": "Yangon",
+  "country": "Myanmar (Burma)",
+  "cc": "MM",
+  "tz": "Asia/Yangon",
+  "lat": 16.8409,
+  "lon": 96.1735,
+  "holidays": {
+   "country": "MM",
+   "subdiv": null
+  },
+  "label": "RGN"
+ },
+ {
+  "id": "manila-ph",
+  "name": "Manila",
+  "country": "Philippines",
+  "cc": "PH",
+  "tz": "Asia/Manila",
+  "lat": 14.5995,
+  "lon": 120.9842,
+  "holidays": {
+   "country": "PH",
+   "subdiv": null
+  },
+  "label": "MNL"
+ },
+ {
+  "id": "cebu-ph",
+  "name": "Cebu",
+  "country": "Philippines",
+  "cc": "PH",
+  "tz": "Asia/Manila",
+  "lat": 10.3157,
+  "lon": 123.8854,
+  "holidays": {
+   "country": "PH",
+   "subdiv": null
+  },
+  "label": "CEB"
+ },
+ {
+  "id": "bandar-seri-begawan-bn",
+  "name": "Bandar Seri Begawan",
+  "country": "Brunei",
+  "cc": "BN",
+  "tz": "Asia/Brunei",
+  "lat": 4.9031,
+  "lon": 114.9398,
+  "holidays": {
+   "country": "BN",
+   "subdiv": null
+  },
+  "label": "BWN"
+ },
+ {
+  "id": "dili-tl",
+  "name": "Dili",
+  "country": "Timor-Leste",
+  "cc": "TL",
+  "tz": "Asia/Dili",
+  "lat": -8.5569,
+  "lon": 125.5603,
+  "holidays": {
+   "country": "TL",
+   "subdiv": null
+  },
+  "label": "DIL"
+ },
+ {
+  "id": "mumbai-in",
+  "name": "Mumbai",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 19.076,
+  "lon": 72.8777,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "MH"
+  },
+  "label": "BOM"
+ },
+ {
+  "id": "delhi-in",
+  "name": "Delhi",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 28.7041,
+  "lon": 77.1025,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "DL"
+  },
+  "label": "DEL"
+ },
+ {
+  "id": "bengaluru-in",
+  "name": "Bengaluru",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 12.9716,
+  "lon": 77.5946,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "KA"
+  },
+  "label": "BLR"
+ },
+ {
+  "id": "chennai-in",
+  "name": "Chennai",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 13.0827,
+  "lon": 80.2707,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "TN"
+  },
+  "label": "MAA"
+ },
+ {
+  "id": "kolkata-in",
+  "name": "Kolkata",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 22.5726,
+  "lon": 88.3639,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "WB"
+  },
+  "label": "CCU"
+ },
+ {
+  "id": "hyderabad-in",
+  "name": "Hyderabad",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 17.385,
+  "lon": 78.4867,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "TG"
+  },
+  "label": "HYD"
+ },
+ {
+  "id": "pune-in",
+  "name": "Pune",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 18.5204,
+  "lon": 73.8567,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "MH"
+  },
+  "label": "PNQ"
+ },
+ {
+  "id": "ahmedabad-in",
+  "name": "Ahmedabad",
+  "country": "India",
+  "cc": "IN",
+  "tz": "Asia/Kolkata",
+  "lat": 23.0225,
+  "lon": 72.5714,
+  "holidays": {
+   "country": "IN",
+   "subdiv": "GJ"
+  },
+  "label": "AMD"
+ },
+ {
+  "id": "karachi-pk",
+  "name": "Karachi",
+  "country": "Pakistan",
+  "cc": "PK",
+  "tz": "Asia/Karachi",
+  "lat": 24.8607,
+  "lon": 67.0011,
+  "holidays": {
+   "country": "PK",
+   "subdiv": null
+  },
+  "label": "KHI"
+ },
+ {
+  "id": "lahore-pk",
+  "name": "Lahore",
+  "country": "Pakistan",
+  "cc": "PK",
+  "tz": "Asia/Karachi",
+  "lat": 31.5204,
+  "lon": 74.3587,
+  "holidays": {
+   "country": "PK",
+   "subdiv": null
+  },
+  "label": "LHE"
+ },
+ {
+  "id": "islamabad-pk",
+  "name": "Islamabad",
+  "country": "Pakistan",
+  "cc": "PK",
+  "tz": "Asia/Karachi",
+  "lat": 33.6844,
+  "lon": 73.0479,
+  "holidays": {
+   "country": "PK",
+   "subdiv": null
+  },
+  "label": "ISB"
+ },
+ {
+  "id": "dhaka-bd",
+  "name": "Dhaka",
+  "country": "Bangladesh",
+  "cc": "BD",
+  "tz": "Asia/Dhaka",
+  "lat": 23.8103,
+  "lon": 90.4125,
+  "holidays": {
+   "country": "BD",
+   "subdiv": null
+  },
+  "label": "DAC"
+ },
+ {
+  "id": "kathmandu-np",
+  "name": "Kathmandu",
+  "country": "Nepal",
+  "cc": "NP",
+  "tz": "Asia/Kathmandu",
+  "lat": 27.7172,
+  "lon": 85.324,
+  "holidays": {
+   "country": "NP",
+   "subdiv": null
+  },
+  "label": "KTM"
+ },
+ {
+  "id": "thimphu-bt",
+  "name": "Thimphu",
+  "country": "Bhutan",
+  "cc": "BT",
+  "tz": "Asia/Thimphu",
+  "lat": 27.4728,
+  "lon": 89.639,
+  "holidays": {
+   "country": "BT",
+   "subdiv": null
+  },
+  "label": "PBH"
+ },
+ {
+  "id": "colombo-lk",
+  "name": "Colombo",
+  "country": "Sri Lanka",
+  "cc": "LK",
+  "tz": "Asia/Colombo",
+  "lat": 6.9271,
+  "lon": 79.8612,
+  "holidays": {
+   "country": "LK",
+   "subdiv": null
+  },
+  "label": "CMB"
+ },
+ {
+  "id": "male-mv",
+  "name": "Malé",
+  "country": "Maldives",
+  "cc": "MV",
+  "tz": "Indian/Maldives",
+  "lat": 4.1755,
+  "lon": 73.5093,
+  "holidays": {
+   "country": "MV",
+   "subdiv": null
+  },
+  "label": "MLE"
+ },
+ {
+  "id": "tashkent-uz",
+  "name": "Tashkent",
+  "country": "Uzbekistan",
+  "cc": "UZ",
+  "tz": "Asia/Tashkent",
+  "lat": 41.2995,
+  "lon": 69.2401,
+  "holidays": {
+   "country": "UZ",
+   "subdiv": null
+  },
+  "label": "TAS"
+ },
+ {
+  "id": "almaty-kz",
+  "name": "Almaty",
+  "country": "Kazakhstan",
+  "cc": "KZ",
+  "tz": "Asia/Almaty",
+  "lat": 43.222,
+  "lon": 76.8512,
+  "holidays": {
+   "country": "KZ",
+   "subdiv": null
+  },
+  "label": "ALA"
+ },
+ {
+  "id": "astana-kz",
+  "name": "Astana",
+  "country": "Kazakhstan",
+  "cc": "KZ",
+  "tz": "Asia/Almaty",
+  "lat": 51.1694,
+  "lon": 71.4491,
+  "holidays": {
+   "country": "KZ",
+   "subdiv": null
+  },
+  "label": "NQZ"
+ },
+ {
+  "id": "bishkek-kg",
+  "name": "Bishkek",
+  "country": "Kyrgyzstan",
+  "cc": "KG",
+  "tz": "Asia/Bishkek",
+  "lat": 42.8746,
+  "lon": 74.5698,
+  "holidays": {
+   "country": "KG",
+   "subdiv": null
+  },
+  "label": "FRU"
+ },
+ {
+  "id": "dushanbe-tj",
+  "name": "Dushanbe",
+  "country": "Tajikistan",
+  "cc": "TJ",
+  "tz": "Asia/Dushanbe",
+  "lat": 38.5598,
+  "lon": 68.787,
+  "holidays": {
+   "country": "TJ",
+   "subdiv": null
+  },
+  "label": "DYU"
+ },
+ {
+  "id": "ashgabat-tm",
+  "name": "Ashgabat",
+  "country": "Turkmenistan",
+  "cc": "TM",
+  "tz": "Asia/Ashgabat",
+  "lat": 37.9601,
+  "lon": 58.3261,
+  "holidays": {
+   "country": "TM",
+   "subdiv": null
+  },
+  "label": "ASB"
+ },
+ {
+  "id": "sydney-au",
+  "name": "Sydney",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Sydney",
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "NSW"
+  },
+  "label": "SYD"
+ },
+ {
+  "id": "melbourne-au",
+  "name": "Melbourne",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Melbourne",
+  "lat": -37.8136,
+  "lon": 144.9631,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "VIC"
+  },
+  "label": "MEL"
+ },
+ {
+  "id": "brisbane-au",
+  "name": "Brisbane",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Brisbane",
+  "lat": -27.4698,
+  "lon": 153.0251,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "QLD"
+  },
+  "label": "BNE"
+ },
+ {
+  "id": "gold-coast-au",
+  "name": "Gold Coast",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Brisbane",
+  "lat": -28.0167,
+  "lon": 153.4,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "QLD"
+  },
+  "label": "OOL"
+ },
+ {
+  "id": "perth-au",
+  "name": "Perth",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Perth",
+  "lat": -31.9505,
+  "lon": 115.8605,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "WA"
+  },
+  "label": "PER"
+ },
+ {
+  "id": "adelaide-au",
+  "name": "Adelaide",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Adelaide",
+  "lat": -34.9285,
+  "lon": 138.6007,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "SA"
+  },
+  "label": "ADL"
+ },
+ {
+  "id": "canberra-au",
+  "name": "Canberra",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Sydney",
+  "lat": -35.2809,
+  "lon": 149.13,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "ACT"
+  },
+  "label": "CBR"
+ },
+ {
+  "id": "hobart-au",
+  "name": "Hobart",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Hobart",
+  "lat": -42.8821,
+  "lon": 147.3272,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "TAS"
+  },
+  "label": "HBA"
+ },
+ {
+  "id": "darwin-au",
+  "name": "Darwin",
+  "country": "Australia",
+  "cc": "AU",
+  "tz": "Australia/Darwin",
+  "lat": -12.4634,
+  "lon": 130.8456,
+  "holidays": {
+   "country": "AU",
+   "subdiv": "NT"
+  },
+  "label": "DRW"
+ },
+ {
+  "id": "auckland-nz",
+  "name": "Auckland",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "tz": "Pacific/Auckland",
+  "lat": -36.8485,
+  "lon": 174.7633,
+  "holidays": {
+   "country": "NZ",
+   "subdiv": "AUK"
+  },
+  "label": "AKL"
+ },
+ {
+  "id": "wellington-nz",
+  "name": "Wellington",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "tz": "Pacific/Auckland",
+  "lat": -41.2865,
+  "lon": 174.7762,
+  "holidays": {
+   "country": "NZ",
+   "subdiv": "WGN"
+  },
+  "label": "WLG"
+ },
+ {
+  "id": "christchurch-nz",
+  "name": "Christchurch",
+  "country": "New Zealand",
+  "cc": "NZ",
+  "tz": "Pacific/Auckland",
+  "lat": -43.5321,
+  "lon": 172.6362,
+  "holidays": {
+   "country": "NZ",
+   "subdiv": "CAN"
+  },
+  "label": "CHC"
+ },
+ {
+  "id": "suva-fj",
+  "name": "Suva",
+  "country": "Fiji",
+  "cc": "FJ",
+  "tz": "Pacific/Fiji",
+  "lat": -18.1248,
+  "lon": 178.4501,
+  "holidays": {
+   "country": "FJ",
+   "subdiv": null
+  },
+  "label": "SUV"
+ },
+ {
+  "id": "port-moresby-pg",
+  "name": "Port Moresby",
+  "country": "Papua New Guinea",
+  "cc": "PG",
+  "tz": "Pacific/Port_Moresby",
+  "lat": -9.4438,
+  "lon": 147.1803,
+  "holidays": {
+   "country": "PG",
+   "subdiv": null
+  },
+  "label": "POM"
+ },
+ {
+  "id": "noumea-nc",
+  "name": "Nouméa",
+  "country": "New Caledonia",
+  "cc": "NC",
+  "tz": "Pacific/Noumea",
+  "lat": -22.2758,
+  "lon": 166.458,
+  "holidays": {
+   "country": "NC",
+   "subdiv": null
+  },
+  "label": "NOU"
+ },
+ {
+  "id": "papeete-pf",
+  "name": "Papeete",
+  "country": "French Polynesia",
+  "cc": "PF",
+  "tz": "Pacific/Tahiti",
+  "lat": -17.5516,
+  "lon": -149.5585,
+  "holidays": {
+   "country": "PF",
+   "subdiv": null
+  },
+  "label": "PPT"
+ },
+ {
+  "id": "apia-ws",
+  "name": "Apia",
+  "country": "Samoa (western)",
+  "cc": "WS",
+  "tz": "Pacific/Apia",
+  "lat": -13.8506,
+  "lon": -171.7513,
+  "holidays": {
+   "country": "WS",
+   "subdiv": null
+  },
+  "label": "APW"
+ }
+]

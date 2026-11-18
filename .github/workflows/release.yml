@@ -1,0 +1,92 @@
+name: Build and Release
+
+# Runs when you push a version tag like v1.0.0: builds the Windows installer
+# and zip, then attaches them to a GitHub Release.
+on:
+  push:
+    tags:
+      - "v*"
+  # Build from the Actions tab without a tag (artifacts only, no Release).
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-build.txt
+
+      - name: Read version
+        id: ver
+        shell: pwsh
+        run: |
+          $v = python -c "from version import __version__ as v; print(v)"
+          echo "version=$v" >> $env:GITHUB_OUTPUT
+
+      - name: Check tag matches version.py
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: pwsh
+        run: |
+          if ("${{ github.ref_name }}" -ne "v${{ steps.ver.outputs.version }}") {
+            Write-Error "Tag ${{ github.ref_name }} does not match version.py (${{ steps.ver.outputs.version }})"
+            exit 1
+          }
+
+      - name: Build app with PyInstaller
+        run: pyinstaller WorldClock.spec --clean -y
+
+      - name: Smoke test the frozen exe
+        shell: pwsh
+        run: |
+          $p = Start-Process -FilePath "dist\WorldClock\WorldClock.exe" `
+               -ArgumentList "--screenshot","smoke.png","--style","glass","--bg","docs/images/dark.png" -PassThru -Wait
+          if ($p.ExitCode -ne 0 -or -not (Test-Path smoke.png)) {
+            Write-Error "frozen exe failed to render (exit $($p.ExitCode))"
+            exit 1
+          }
+
+      - name: Zip onedir build
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path releases | Out-Null
+          Compress-Archive -Path 'dist\WorldClock\*' -DestinationPath "releases\WorldClock-${{ steps.ver.outputs.version }}-win64.zip" -Force
+
+      - name: Compile installer (Inno Setup)
+        shell: pwsh
+        run: |
+          $iscc = "C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+          if (-not (Test-Path $iscc)) {
+            choco install innosetup --no-progress -y
+          }
+          & $iscc "/DMyAppVersion=${{ steps.ver.outputs.version }}" installer.iss
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: WorldClock-${{ steps.ver.outputs.version }}
+          path: |
+            releases\*.zip
+            installer_out\*.exe
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            releases\*.zip
+            installer_out\*.exe
+          body_path: RELEASE_NOTES.md

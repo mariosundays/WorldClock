@@ -1,0 +1,8 @@
+# Lean set for the frozen build (CI and build.bat). From source, requirements.txt works too.
+PySide6-Essentials>=6.6
+holidays>=0.50
+astral>=3.2
+tzdata
+numpy
+opencv-python-headless
+pyinstaller>=6.10
