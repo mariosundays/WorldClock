@@ -2,6 +2,8 @@
 
 Usage:
     pythonw worldclock.pyw                      normal run (tray + hidden pill)
+    pythonw worldclock.pyw --watchdog           same, restarted if it crashes (autostart uses this)
+    python  worldclock.pyw --crash-test exception|segfault|exit|quit|slot   test the crash log
     python  worldclock.pyw --screenshot out.png [--force-holiday GE] [--force-night]
     python  worldclock.pyw --dump               print computed values and exit
     python  worldclock.pyw --frames DIR [--edge bottom]   render the liquid reveal (PNGs, sheet, GIF, MP4)
@@ -22,8 +24,15 @@ FROZEN = getattr(sys, "frozen", False)          # running as the PyInstaller exe
 HERE = Path(getattr(sys, "_MEIPASS", Path(__file__).resolve().parent))
 sys.path.insert(0, str(HERE))
 
+if __name__ == "__main__" and "--watchdog" in sys.argv[1:]:
+    # restart-on-crash supervisor: stays light, so it must run before Qt/numpy/cv2 load
+    import supervisor
+    sys.exit(supervisor.run(sys.argv[1:]))
+
+import crashlog
+
 from PySide6.QtCore import (Qt, QTimer, QPoint, QPointF, QRect, QRectF, QSize, QPropertyAnimation,
-                            QEasingCurve, QLockFile, QDir)
+                            QEasingCurve, QDir, qVersion)
 from PySide6.QtGui import (QCursor, QGuiApplication, QImage, QPainter, QColor, QLinearGradient,
                            QAction, QPen)
 from PySide6.QtWidgets import QApplication, QMenu, QSystemTrayIcon, QWidget
@@ -76,23 +85,46 @@ def save_settings(d: dict):
 
 # ---------------------------------------------------------------- autostart
 def _autostart_cmd() -> str:
+    """Autostart launches the watchdog, which runs (and restarts) the real app."""
     if FROZEN:                                      # installed build: the exe itself
-        return f'"{Path(sys.executable).resolve()}"'
+        return f'"{Path(sys.executable).resolve()}" --watchdog'
     exe = Path(sys.executable)
     pyw = exe.with_name("pythonw.exe")
     if pyw.exists():
         exe = pyw
-    return f'"{exe}" "{Path(__file__).resolve()}"'
+    return f'"{exe}" "{Path(__file__).resolve()}" --watchdog'
 
 
-def autostart_enabled() -> bool:
+def autostart_value() -> str | None:
     import winreg
     try:
         with winreg.OpenKey(winreg.HKEY_CURRENT_USER, RUN_KEY) as k:
-            winreg.QueryValueEx(k, APP_NAME)
-            return True
+            return str(winreg.QueryValueEx(k, APP_NAME)[0])
     except OSError:
-        return False
+        return None
+
+
+def autostart_enabled() -> bool:
+    return autostart_value() is not None
+
+
+def migrate_autostart():
+    """Frozen build: keep an existing Run entry pointing at this exe with --watchdog
+    (1.0.0 wrote the bare exe). Only touch it when it names this exe, or an exe that no
+    longer exists (the install moved), so a test build elsewhere can't hijack it."""
+    cur = autostart_value()
+    if not FROZEN or cur is None or cur == _autostart_cmd():
+        return
+    here = Path(sys.executable).resolve()
+    target = cur.strip()
+    target = target[1:].split('"', 1)[0] if target.startswith('"') else target.split(" ", 1)[0]
+    try:
+        same = Path(target).resolve() == here
+    except OSError:
+        same = False
+    if same or not Path(target).exists():
+        set_autostart(True)
+        crashlog.log.info("Autostart updated: %s", _autostart_cmd())
 
 
 def set_autostart(on: bool):
@@ -1234,6 +1266,70 @@ def dump(states):
               f"holiday={s.holiday}")
 
 
+# ---------------------------------------------------------------- crash log / quit reasons
+log = crashlog.log
+_quit_reason: str | None = None
+_console_cb = None
+
+
+def request_quit(reason: str):
+    """Every intentional quit goes through here: exit code 0 tells the watchdog to stop."""
+    global _quit_reason
+    _quit_reason = _quit_reason or reason
+    log.info("Quit requested: %s", reason)
+    QApplication.instance().exit(0)
+
+
+def install_quit_logging(app):
+    import supervisor
+
+    def session_end(*_):
+        global _quit_reason
+        if _quit_reason != "Windows session end":
+            _quit_reason = "Windows session end"
+            log.info("Windows session is ending (logoff / shutdown)")
+        supervisor.signal_session_end()     # the watchdog must not restart us
+
+    app.commitDataRequest.connect(session_end)
+    app.aboutToQuit.connect(lambda: log.info("Quitting (%s)", _quit_reason or "no reason given"))
+
+    # console runs: Ctrl+C / window close / logoff seen by a console process
+    global _console_cb
+    try:
+        import ctypes
+        from ctypes import wintypes
+        names = {0: "Ctrl+C", 1: "Ctrl+Break", 2: "console closed", 5: "logoff", 6: "shutdown"}
+
+        @ctypes.WINFUNCTYPE(wintypes.BOOL, wintypes.DWORD)
+        def handler(ev):
+            log.info("Console control event: %s", names.get(ev, ev))
+            if ev in (5, 6):
+                session_end()
+            return False
+        _console_cb = handler
+        ctypes.windll.kernel32.SetConsoleCtrlHandler(_console_cb, True)
+    except Exception:
+        pass
+
+
+def schedule_crash_test(mode: str):
+    """--crash-test: exercise the log and the watchdog's restart paths."""
+    log.warning("Crash test armed: %s", mode)
+
+    def fire():
+        log.warning("Crash test firing: %s", mode)
+        if mode == "segfault":
+            import faulthandler
+            faulthandler._sigsegv()                  # real access violation -> faults.log
+        elif mode == "exit":
+            os._exit(3)                              # abrupt non-zero exit
+        elif mode == "quit":
+            request_quit("crash-test quit")          # clean exit 0
+        elif mode == "slot":
+            raise RuntimeError("crash-test: exception inside a Qt slot (app keeps running)")
+    QTimer.singleShot(2000, fire)
+
+
 # ---------------------------------------------------------------- main
 def main():
     ap = argparse.ArgumentParser()
@@ -1254,7 +1350,14 @@ def main():
     ap.add_argument("--fx", default="", help="glass effects for --frames / --settings-shot: "
                                              "comma list of materialize,merge,pointer")
     ap.add_argument("--pointer-shots", metavar="DIR", help="render pointer-light stills (needs --bg)")
+    ap.add_argument("--crash-test", choices=("exception", "segfault", "exit", "quit", "slot"),
+                    help="debug: crash (or quit) ~2 s after start to test the log / watchdog")
     a = ap.parse_args()
+    if not (a.dump or a.screenshot or a.frames or a.settings_shot or a.pointer_shots):
+        crashlog.setup("app")                # normal run: log + crash hooks before Qt starts
+        crashlog.install_exception_hooks()
+        crashlog.enable_faulthandler()
+        crashlog.suppress_crash_dialogs()
     force_h = {c.strip().upper() for c in a.force_holiday.split(",") if c.strip()}
 
     if a.dump:
@@ -1263,6 +1366,8 @@ def main():
 
     app = QApplication(sys.argv)
     app.setQuitOnLastWindowClosed(False)
+    if crashlog.log.handlers:
+        crashlog.install_qt_message_handler()
 
     bg = Backdrop(a.bg) if a.bg else None
     global FX_DEMO, BACKDROP
@@ -1284,10 +1389,20 @@ def main():
         return 0
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    lock = QLockFile(str(DATA_DIR / "worldclock.lock"))
-    lock.setStaleLockTime(0)
-    if not lock.tryLock(200):
+    import supervisor                    # named-mutex single instance (can't go stale)
+    if not supervisor.single_instance("app"):
+        log.info("Another WorldClock is already running; exiting")
         return 0
+    try:
+        (DATA_DIR / "worldclock.lock").unlink(missing_ok=True)   # 1.0.0's lock file
+    except OSError:
+        pass
+    log.info("WorldClock %s started (%s, pid %d, Python %s, Qt %s); screens: %s", __version__,
+             "frozen" if FROZEN else "source", os.getpid(), sys.version.split()[0],
+             qVersion(), crashlog.describe_screens(app))
+    crashlog.hook_screens(app)
+    crashlog.hook_power()
+    install_quit_logging(app)
 
     settings, first_run = load_settings()
     if first_run:
@@ -1295,11 +1410,11 @@ def main():
             set_autostart(True)
         except OSError:
             pass
-    elif FROZEN and autostart_enabled():
+    else:
         try:
-            set_autostart(True)          # keep the Run entry pointing at this exe (e.g. after a move)
-        except OSError:
-            pass
+            migrate_autostart()
+        except OSError as e:
+            log.warning("Autostart migration failed: %s", e)
     # migrate older files (and fill defaults for a fresh install)
     changed = first_run
     if "clocks" not in settings:
@@ -1348,7 +1463,7 @@ def main():
     act_reset = QAction("Reset position", menu)
     act_reset.triggered.connect(lambda: clocks.reset_position(None))   # primary, top, centred
     act_quit = QAction("Quit", menu)
-    act_quit.triggered.connect(app.quit)
+    act_quit.triggered.connect(lambda: request_quit("tray menu Quit"))
     act_settings = QAction("Settings…", menu)
     dlg_holder = {}
 
@@ -1405,7 +1520,9 @@ def main():
     pill_menu.addSeparator()
     pill_menu.addAction(act_pin)
     pill_menu.addSeparator()
-    pill_menu.addAction(act_quit)
+    act_p_quit = QAction("Quit", pill_menu)
+    act_p_quit.triggered.connect(lambda: request_quit("pill menu Quit"))
+    pill_menu.addAction(act_p_quit)
     clocks.context_menu = pill_menu
 
     def hook_screen(s):
@@ -1419,10 +1536,23 @@ def main():
     clocks.start()
     if first_run:
         clocks.show_for(4)       # say hello once so the user knows where it lives
+    if a.crash_test == "exception":
+        raise RuntimeError("crash-test: uncaught exception in main")
+    if a.crash_test:
+        schedule_crash_test(a.crash_test)
     rc = app.exec()
-    lock.unlock()
+    log.info("Event loop ended, exit code %s", rc)
     return rc
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        rc = main()
+    except SystemExit:
+        raise
+    except BaseException:
+        # log it, then exit hard with 1: the frozen (windowed) build would otherwise show a
+        # modal "Unhandled exception" box and the watchdog would wait on it forever
+        sys.excepthook(*sys.exc_info())
+        os._exit(1)
+    sys.exit(rc)

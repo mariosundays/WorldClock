@@ -51,17 +51,34 @@ slides back in. Nothing on screen the rest of the time.
    Right-click the tray icon (or the clock) for Settings.
 
 Prefer no installer? Grab the `.zip` from the same page, unzip anywhere and
-run `WorldClock.exe`.
+run `WorldClock.exe --watchdog` (or plain `WorldClock.exe` without auto-restart).
 
 Settings are kept in `%APPDATA%\WorldClock\settings.json` and survive
 upgrades and uninstalls. Windows 10/11, 64-bit. The installer isn't
 code-signed, so SmartScreen may ask you to confirm.
 
+## Crash log and auto-restart
+
+Autostart and the Start Menu shortcut run `WorldClock.exe --watchdog`: a tiny
+supervisor that starts the clock and brings it back if it crashes or gets
+killed (after 2 s, backing off, at most 5 times in 10 minutes). Quitting from
+the menu, or logging off, stops it.
+
+Everything worth knowing goes to `%APPDATA%\WorldClock\logs\worldclock.log`
+(starts, quits and why, screen changes, sleep/resume, errors, restarts); hard
+crashes leave a Python traceback in `faults.log` beside it. To test it:
+`WorldClock.exe --watchdog --crash-test exception|segfault|exit|quit`.
+
+## Changelog
+
+- **1.0.1**: watchdog auto-restart, crash/diagnostic log, crash-proof single-instance lock.
+- **1.0.0**: first public release.
+
 ## Run from source
 
 ```bat
 py -3.13 -m pip install -r requirements.txt
-pythonw worldclock.pyw
+pythonw worldclock.pyw --watchdog
 ```
 
 Debug flags (from source or the exe):

@@ -4,7 +4,7 @@
 ; Per-user install, no admin. Settings in %APPDATA%\WorldClock are never touched.
 
 #ifndef MyAppVersion
-  #define MyAppVersion "1.0.0"
+  #define MyAppVersion "1.0.1"
 #endif
 #define MyAppName      "WorldClock"
 #define MyAppPublisher "Mario Domingos"
@@ -55,18 +55,19 @@ Source: "{#DistDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs cr
 Type: filesandordirs; Name: "{app}\_internal"
 
 [Icons]
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Parameters: "--watchdog"
 Name: "{group}\Uninstall {#MyAppName}"; Filename: "{uninstallexe}"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Parameters: "--watchdog"; Tasks: desktopicon
 
 [Registry]
 ; Same value the app's "Start with Windows" toggle writes, so the two stay in sync.
+; --watchdog: a tiny supervisor that runs the app and restarts it if it crashes.
 Root: HKCU; Subkey: "{#RunKey}"; ValueType: string; ValueName: "{#MyAppName}"; \
-  ValueData: """{app}\{#MyAppExeName}"""; Tasks: startup
+  ValueData: """{app}\{#MyAppExeName}"" --watchdog"; Tasks: startup
 Root: HKCU; Subkey: "{#RunKey}"; ValueName: "{#MyAppName}"; Flags: deletevalue; Tasks: not startup
 
 [Run]
-Filename: "{app}\{#MyAppExeName}"; Description: "Start WorldClock now"; Flags: nowait postinstall
+Filename: "{app}\{#MyAppExeName}"; Parameters: "--watchdog"; Description: "Start WorldClock now"; Flags: nowait postinstall
 
 [Code]
 procedure KillWorldClock();
